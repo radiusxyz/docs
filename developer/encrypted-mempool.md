@@ -21,7 +21,8 @@ In the context of preventing malicious Miner Extractable Value (MEV) actions, us
 5. **Send Encrypted Transaction:** The user sends the encrypted transaction to the sequencing layer, awaiting the arrival of the order before the decryption time elapses.
 6. **Receive Pre-Confirmation**: Prior to decryption, users receive an order-commitment. This commitment assures the user that their transaction's order has been preserved and will not be altered.
 7. _**Optional: Send Decryption Key**_**:** The user sends the decryption key to the sequencing layer immediately upon receiving the pre-confirmation, aiming to reduce fees.
-8. **Request and receive cryptographic proof of inclusion**: The user requests the pointproof from the sequencer and then verifies the inclusion and order of the transaction through the contract.
+8. _**Request and receive cryptographic proof of inclusion**_**:** The user requests the pointproof needed for verification of inclusion and order from the sequencer.
+9. _**Request and receive cryptographic proof of inclusion**_**:** The user verifies the inclusion and order of the transaction through the contract.
 
 ### **Implementation in Eigenlayer Testnet**
 
@@ -47,3 +48,5 @@ It's important to note that users have the option to reduce transaction fees by 
 - [SendEncryptedTxResponse](code-references.md#sendencryptedtxresponse)
 - [provide_decryption_key](code-references.md#provide_decryption_key)
 - [ProvideDecryptionKey](code-references.md#providedecryptionkey)
+
+Once a block is finalized, users can request the pointproof. Pointproof acts as a proof of inclusion and order from the sequencer. It is essential for verifying that the sequencer did not act maliciously by violating the order commitment provided earlier.
