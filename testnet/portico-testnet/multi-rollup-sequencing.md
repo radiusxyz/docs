@@ -36,7 +36,7 @@ To identify transactions for each rollup, the leader manages the following infor
 
 ### **Multi-Rollup Sequencing in Portico Testnet**
 
-Explore a demonstration of [Multi-Rollup Sequencing on the Portico Testnet](https://portico.theradius.xyz/multi-rollup-sequencing). The shared sequencer submits blocks to two rollup operators in Rollup A and B, both deployed with the [Madara](https://www.madara.build/) rollup framework.&#x20;
+Explore a demonstration of Multi-Rollup Sequencing on Portico Testnet (closed). The shared sequencer submits blocks to two rollup operators in Rollup A and B, both deployed with the [Madara](https://www.madara.build/) rollup framework.&#x20;
 
 <figure><img src="../../.gitbook/assets/image (6).png" alt=""><figcaption><p><em>The latest block and block times for each rollup are displayed as transactions are sequenced.</em></p></figcaption></figure>
 

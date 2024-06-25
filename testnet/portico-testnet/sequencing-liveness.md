@@ -13,7 +13,7 @@ Before delving into how Radius ensures sequencing liveness, let's examine two ke
 
 Two potential scenarios of sequencing liveness failures can disrupt rollup operation:
 
-* [**Failure due to malicious users**](../../developer/sequencing-layer-user.md#importance-of-zk-proof): Delays in the sequencer providing the block to the rollup operator may occur due to potential attacks by malicious users. Practical Verifiable Delay Encryption (PVDE) enables users to generate proofs for the decryption key, helping the sequencer in identifying transactions that might lead to decryption failures. _Refer to_ [_Curie Testnet_](https://docs.theradius.xyz/testnet/curie-testnet)
+* [**Failure due to malicious users**](../../developer/sequencing-layer-user.md#importance-of-zk-proof): Delays in the sequencer providing the block to the rollup operator may occur due to potential attacks by malicious users. Practical Verifiable Delay Encryption (PVDE) enables users to generate proofs for the decryption key, helping the sequencer in identifying transactions that might lead to decryption failures. (Refer to [_Curie Testnet_](https://docs.theradius.xyz/testnet/curie-testnet)_)_
 * **Leader Failure**: Leader failure can result in interruptions during the block sequencing process
 
 ### RAFT Algorithm for Sequencing Liveness During Leader Failure
@@ -34,7 +34,7 @@ A modification to the RAFT algorithm ensures data consistency among followers du
 
 ### **Sequencing Liveness in Portico Testnet**
 
-Explore a demonstration of [Sequencing Liveness on the Portico Testnet](https://portico.theradius.xyz/sequencing-liveness).
+Explore a demonstration of Sequencing Liveness on the Portico Testnet (closed).
 
 * _Please note that the speed of interactions in the testnet has been adjusted for demonstration purposes and does not reflect the actual speed of sequencing events_
 * _To view all sequencing events in real-time, refer to the_ [_real-time log_](https://portico-logs.theradius.xyz/)_, which is synchronized with the visualization on the testnet_
