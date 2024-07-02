@@ -2,7 +2,8 @@
 
 ### What is Radius?
 
-Radius is a coordination layer designed to secure transactions, guarantee fast finality, and streamline interoperability in rollups. Our goal is to create trustless rollup networks by leveraging cryptographic algorithms and enable true rollup scalability, followed by our [user-centric model that is essential for rollup success](https://mirror.xyz/0x957084A1F20AB33cfA0cE07ed57F50c05954999C/2ESPmsJyzm5QhL\_Xmogt9yG9vLvjkJ\_PPTri2qgTD5k).
+Radius is a coordination layer designed to enable rollups to achieve key decentralization properties: censorship resistance, liveness, and safety for fast finality.\
+Our goal is to create trustless rollup networks by leveraging cryptographic algorithms and enable true rollup scalability, followed by our [user-centric model that is essential for rollup success](https://mirror.xyz/0x957084A1F20AB33cfA0cE07ed57F50c05954999C/2ESPmsJyzm5QhL\_Xmogt9yG9vLvjkJ\_PPTri2qgTD5k).
 
 Before we explain why Radius’s user-centric features and designs are needed, it is critical to understand why and where existing rollup designs fall short, causing downstream consequences for users.
 
