@@ -1,9 +1,12 @@
 # Loggia Testnet With Radius AVS
 
-The testnet describes the process of applying the Decentralized Sequencing function using Radius AVS within the Rollup framework and its subsequent operations.
+Radius launches Loggia Testnet, offering decentralized sequencing for rollups. Powered by Radius AVS (Actively Validated Services) built on Eigenlayer, Loggia enables rollups to achieve censorship resistance, while economically securing sequencing liveness and block safety with restaked ETH.
 
 <figure><img src="../../.gitbook/assets/image (20).png" alt=""><figcaption><p>Architecture Overview</p></figcaption></figure>
 
-In the Radius structure, Decentralized Rollup is organized as shown in the accompanying diagram. Rollup consists of the Proposer, which includes a decentralized Sequencer Set that sequences transactions from users, and the Full Node that receives and executes blocks from the Proposer.
+A decentralized rollup includes the following components:
 
-Radius AVS operates after the Rollup Developer configures it, taking into account factors like the Proposer's setup and the Rollup block creation time. Before any processes begin, the Rollup Developer must directly manage a Full Node, which includes an adapter to interact with the Proposer.
+* Proposer: A decentralized sequencer set responsible for ordering transactions.
+* Full Node: Receives and executes blocks from the proposer.
+
+Developers can configure Radius AVS by considering the proposer's setup and the rollup block creation time. Initially, rollups must run their own full node, which includes an adapter to interact with the proposer.

@@ -2,7 +2,7 @@
 
 The proposer entities are divided into two categories: leaders and followers. Followers are responsible for routing data to and from the leader and users, as well as synchronizing the state. Meanwhile, the leader takes on more complex tasks such as sequencing transactions into blocks, providing order commitments, signing transactions, and interacting with rollups. This method offers several advantages.
 
-#### 1. Simplified Coordination and decision making <a href="#simpler-decision-making" id="simpler-decision-making"></a>
+#### 1. Simplified Decision Making <a href="#simpler-decision-making" id="simpler-decision-making"></a>
 
 * **Simplicity:** With a single leader responsible for sequencing, the system simplifies the decision-making process. This centralized approach reduces the complexity and overhead associated with achieving consensus among multiple nodes.
 * **Efficiency:** Leader-based systems can implement more efficient ordering and syncing related decisions  since the leader node acts as the authoritative source for sequencing. This streamlines the process of agreeing on the state of the system, as there's no need for multiple nodes to negotiate each sequence.

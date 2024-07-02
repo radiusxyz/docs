@@ -1,4 +1,4 @@
-# Inclusion Pre-Confirmation
+# Encrypted Pre-Confirmation
 
 ### **Introduction**
 
@@ -36,13 +36,13 @@ Encrypting the transaction and tying its decryption to a time-lock puzzle primar
 
 The process by which the proposer interacts with user-submitted data involves several critical steps, designed to ensure the security and efficiency of transactions. Here’s a simplified breakdown:
 
-**Processing by the Sequencing Layer**:
+**Processing by the Proposer**:
 
-1. **Receive User Data**: The sequencing layer receives three key pieces of information from the user: the encrypted transaction, the time-lock puzzle, and the zk-proof.
-2. **Validate and Verify zk-proof**: Upon receipt, the sequencing layer verifies the zk-proof. If the proof is validated, the process proceeds.
+1. **Receive User Data**: The proposer receives three key pieces of information from the user: the encrypted transaction, the time-lock puzzle, and the zk-proof.
+2. **Validate and Verify zk-proof**: Upon receipt, the proposer verifies the zk-proof. If the proof is validated, the process proceeds.
 3. **Determine Transaction Order In The Block**: The order of transactions is determined on a First-Come, First-Served (FCFS) basis.
 4. **Sign The Order-Commitment**: The proposer (leader) signs the order-commitment, which contains details such as block height, transaction order, raw transaction hash, rollup type, using its private key.
-5. **Provide Order Commitment to User**: Finally, the sequencing layer sends order-commitment to the user, serving as proof of the transaction's position and integrity within the block.
+5. **Provide Order Commitment to User**: Finally, the proposer sends order-commitment to the user, serving as proof of the transaction's position and integrity within the block.
 6. **Solve Time-Lock Puzzle:** The leader proposer solves the time-lock puzzle to retrieve the decryption key.
 7. **Decrypt The Encrypted Transaction:** The proposer decrypts the transaction using the key obtained during the previous step.
 8. **Provide Block to Rollup:** The leader proposer set provides the block to the rollup operator upon request.
