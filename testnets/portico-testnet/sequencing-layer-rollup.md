@@ -24,7 +24,7 @@ The `add_rollup()` function verifies if a rollup with the specified ID already h
 
 ## Getting the block from the sequencing layer
 
-<figure><img src="../.gitbook/assets/image (11).png" alt=""><figcaption><p><em>Getting the block of raw transactions from the sequencing layer</em></p></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (11) (1).png" alt=""><figcaption><p><em>Getting the block of raw transactions from the sequencing layer</em></p></figcaption></figure>
 
 After the rollup has been added to the list of rollups, sequencing can commence. The process involves the rollup initiating a request for a block of raw transactions. This is done by making an RPC call to the `get_raw_tx_list` method on the sequencing layer. The method, in response, returns a structure named `GetRawTxListResponse`.&#x20;
 

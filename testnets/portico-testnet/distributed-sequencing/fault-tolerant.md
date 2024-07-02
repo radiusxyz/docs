@@ -6,17 +6,17 @@ A key advantage of distributed systems is their fault tolerance. In the Radius s
 
 #### Case 1: Normal flow
 
-<figure><img src="../../.gitbook/assets/normal.gif" alt=""><figcaption><p><em>Well-functioning leader</em></p></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/normal.gif" alt=""><figcaption><p><em>Well-functioning leader</em></p></figcaption></figure>
 
 #### Case 2: Failed to deliver order commitment to majority of the followers
 
 
 
-<figure><img src="../../.gitbook/assets/fail1.gif" alt=""><figcaption><p><em>Fail before syncing with majority</em></p></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/fail1.gif" alt=""><figcaption><p><em>Fail before syncing with majority</em></p></figcaption></figure>
 
 #### Case 3: Failed after successfully delivering the order commitment to the majority of the followers
 
-<figure><img src="../../.gitbook/assets/fail2.gif" alt=""><figcaption><p><em>Fail after syncing with majority</em></p></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/fail2.gif" alt=""><figcaption><p><em>Fail after syncing with majority</em></p></figcaption></figure>
 
 ## Leader election <a href="#leader-election" id="leader-election"></a>
 
@@ -44,7 +44,7 @@ The process involves the leader signing the order-commitment and distributing it
 
 This mechanism safeguards the integrity of transactions and user notifications, ensuring that the system remains transparent and reliable even amidst leadership transitions. The following image illustrates the process of electing a leader:
 
-<figure><img src="../../.gitbook/assets/Screenshot 2024-02-27 at 1.03.18 PM.png" alt=""><figcaption><p><em>State based voting</em></p></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/Screenshot 2024-02-27 at 1.03.18 PM.png" alt=""><figcaption><p><em>State based voting</em></p></figcaption></figure>
 
 Every node can vote for a candidate that matches its own data state. Consequently, the only node that can become the leader is the one that aligns with the majority's data state, as it will receive the majority of votes. In the given scenario, nodes possessing the most recent encrypted transaction and order commitment are eligible for a maximum of 3 votes, indicated by blue arrows. On the other hand, nodes lacking this information can receive a maximum of 2 votes, denoted by red arrows.
 
@@ -54,10 +54,10 @@ Upon the election of a leader, it shares its state with the followers, who then 
 
 1. **If the Leader Has the Latest Transactions and Order-Commitments**: Followers update their states to reflect the leader's state, ensuring that the entire network is consistent and up-to-date with the latest transactions and commitments.
 
-<figure><img src="../../.gitbook/assets/2.001.png" alt=""><figcaption><p><em>Case 1: Order commitment has been shared among the majority</em></p></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/2.001.png" alt=""><figcaption><p><em>Case 1: Order commitment has been shared among the majority</em></p></figcaption></figure>
 
 2. **If the Leader Lacks the Latest Transactions and Order-Commitments**: Followers disregard the most recent transaction and order-commitment information received from the leader. This step is crucial to maintain the integrity of the network, ensuring that only verified and acknowledged transactions are processed and included in the block.
 
-<figure><img src="../../.gitbook/assets/1.001.png" alt=""><figcaption><p><em>Case 2: Order commitment has not been shared among the majority</em></p></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/1.001.png" alt=""><figcaption><p><em>Case 2: Order commitment has not been shared among the majority</em></p></figcaption></figure>
 
 This mechanism ensures that the network remains robust and consistent, aligning the states of all nodes with the elected leader's state, whether it includes the latest transactions and commitments or necessitates a rollback to maintain network integrity.
