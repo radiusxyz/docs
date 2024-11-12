@@ -6,11 +6,11 @@ Radius is developing Lighthouse and Secure Block Building (SBB) to help rollups 
 
 ***
 
-### Lighthouse: MEV Internalization Service
+### Lighthouse: MEV Internalization
 
 Lighthouse is a decentralized network that allows rollups to directly capture MEV. It works by connecting rollups with specialized traders—such as searchers and builders—who create MEV bundles based on high-value arbitrage strategies. Rollups then prioritize these bundles at the top of each block before user transactions, guaranteeing execution and generating revenue by internalizing MEV.
 
-### Secure Block Building: User Protection Module
+### Secure Block Building: User Protection and Security
 
 _Secure Block Building (SBB)_ is a protection module for protecting users from harmful MEV, like frontrunning and sandwich attacks, which can happen during MEV internalization. By using zero-knowledge (ZK) proofs and encrypted mempools, SBB encrypts user transactions without disrupting the user experience. It enables rollups to capture MEV profitably while keeping users protected from economic threats.
 
