@@ -1,34 +1,33 @@
 # Table of contents
 
-## Overview
+## Introduction
 
-* [Introduction](README.md)
-* [Roadmap](overview/roadmap.md)
+* [Product Overview](README.md)
 
-## Testnets
+## Testnet
 
-* [Loggia Testnet With Radius AVS](testnets/loggia-testnet-with-radius-avs/README.md)
-  * [Encrypted Pre-Confirmation](testnets/loggia-testnet-with-radius-avs/encrypted-pre-confirmation.md)
-  * [Decentralized Sequencing](testnets/loggia-testnet-with-radius-avs/decentralized-sequencing/README.md)
-    * [Leader-based](testnets/loggia-testnet-with-radius-avs/decentralized-sequencing/leader-based.md)
-    * [Liveness](testnets/loggia-testnet-with-radius-avs/decentralized-sequencing/liveness/README.md)
-      * [Leader Selection](testnets/loggia-testnet-with-radius-avs/decentralized-sequencing/liveness/leader-selection.md)
-      * [Syncing](testnets/loggia-testnet-with-radius-avs/decentralized-sequencing/liveness/syncing.md)
-      * [Block Validation](testnets/loggia-testnet-with-radius-avs/decentralized-sequencing/liveness/block-validation.md)
-      * [L1 Security](testnets/loggia-testnet-with-radius-avs/decentralized-sequencing/liveness/l1-security.md)
-  * [Code References](testnets/loggia-testnet-with-radius-avs/code-references.md)
-* [Portico Testnet](testnets/portico-testnet/README.md)
-  * [Introduction](testnets/portico-testnet/introduction.md)
-  * [Encrypted Mempool](testnets/portico-testnet/encrypted-mempool.md)
-  * [Sequencing Layer ↔ User](testnets/portico-testnet/sequencing-layer-user.md)
-  * [Sequencing Layer ↔ Rollup](testnets/portico-testnet/sequencing-layer-rollup.md)
-  * [Distributed Sequencing](testnets/portico-testnet/distributed-sequencing/README.md)
-    * [Leader-based](testnets/portico-testnet/distributed-sequencing/leader-based.md)
-    * [Fault-tolerant](testnets/portico-testnet/distributed-sequencing/fault-tolerant.md)
-  * [Code References](testnets/portico-testnet/code-references.md)
-* [Curie Testnet](testnets/curie-testnet/README.md)
-  * [Encrypted Mempool](testnets/curie-testnet/encrypted-mempool.md)
-  * [Testnet Guide](testnets/curie-testnet/testnet-guide.md)
+* [Loggia Testnet with Radius AVS](testnet/loggia-testnet-with-radius-avs/README.md)
+  * [Encrypted Preconfirmations](testnet/loggia-testnet-with-radius-avs/encrypted-preconfirmations.md)
+  * [Decentralized Sequencing](testnet/loggia-testnet-with-radius-avs/decentralized-sequencing/README.md)
+    * [Leader-based](testnet/loggia-testnet-with-radius-avs/decentralized-sequencing/leader-based.md)
+    * [Liveness](testnet/loggia-testnet-with-radius-avs/decentralized-sequencing/liveness/README.md)
+      * [Leader Selection](testnet/loggia-testnet-with-radius-avs/decentralized-sequencing/liveness/leader-selection.md)
+      * [Syncing](testnet/loggia-testnet-with-radius-avs/decentralized-sequencing/liveness/syncing.md)
+      * [Block Validation](testnet/loggia-testnet-with-radius-avs/decentralized-sequencing/liveness/block-validation.md)
+      * [L1 Security](testnet/loggia-testnet-with-radius-avs/decentralized-sequencing/liveness/l1-security.md)
+  * [Code References](testnet/loggia-testnet-with-radius-avs/code-references.md)
+* [Portico Testnet](testnet/portico-testnet/README.md)
+  * [Introduction](testnet/portico-testnet/introduction.md)
+  * [Encrypted Mempool](testnet/portico-testnet/encrypted-mempool.md)
+  * [Sequencing Layer ↔ User](testnet/portico-testnet/sequencing-layer-user.md)
+  * [Sequencing Layer ↔ Rollup](testnet/portico-testnet/sequencing-layer-rollup.md)
+  * [Distributed Sequencing](testnet/portico-testnet/distributed-sequencing/README.md)
+    * [Leader-based](testnet/portico-testnet/distributed-sequencing/leader-based.md)
+    * [Fault-tolerant](testnet/portico-testnet/distributed-sequencing/fault-tolerant.md)
+  * [Code References](testnet/portico-testnet/code-references.md)
+* [Curie Testnet](testnet/curie-testnet/README.md)
+  * [Encrypted Mempool](testnet/curie-testnet/encrypted-mempool.md)
+  * [Testnet Guide](testnet/curie-testnet/testnet-guide.md)
 
 ## DEVELOPER
 

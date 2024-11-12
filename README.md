@@ -1,33 +1,56 @@
-# Introduction
+# Product Overview
 
-### What is Radius?
+## Lighthouse and Secure Block Building (SBB)
 
-Radius is a coordination layer designed to enable rollups to achieve key decentralization properties: censorship resistance, liveness, and safety for fast finality.\
-Our goal is to create trustless rollup networks by leveraging cryptographic algorithms and enable true rollup scalability, followed by our [user-centric model that is essential for rollup success](https://mirror.xyz/0x957084A1F20AB33cfA0cE07ed57F50c05954999C/2ESPmsJyzm5QhL\_Xmogt9yG9vLvjkJ\_PPTri2qgTD5k).
+Radius is developing Lighthouse and Secure Block Building (SBB) to help rollups stay profitable, healthy, and sustainably growing.
 
-Before we explain why Radius’s user-centric features and designs are needed, it is critical to understand why and where existing rollup designs fall short, causing downstream consequences for users.
+***
 
-### Current Challenges
+### Lighthouse: MEV Internalization Service
 
-Despite the scalability offered by rollups, creating a sustainable rollup ecosystem remains challenging due to several pain points faced by users: censorship and harmful MEV risks (such as frontrunning and sandwiching) that extract value from users, no finality guarantees on Ethereum with a lack of incentive alignment between rollups and Ethereum, and the complexity and poor user experience of cross-rollup transactions due to a lack of shared entity. As more rollups and appchains emerge, these issues will only intensify.
+Lighthouse is a decentralized network that allows rollups to directly capture MEV. It works by connecting rollups with specialized traders—such as searchers and builders—who create MEV bundles based on high-value arbitrage strategies. Rollups then prioritize these bundles at the top of each block before user transactions, guaranteeing execution and generating revenue by internalizing MEV.
 
-Radius addresses these challenges through a **user-centric model**, focusing on providing robust solutions to prevent transactions from censorship and harmful MEV, guarantee inclusion on Ethereum, and simplify cross-rollup interactions.
+### Secure Block Building: User Protection Module
 
-### With Radius, rollups can:
+_Secure Block Building (SBB)_ is a protection module for protecting users from harmful MEV, like frontrunning and sandwich attacks, which can happen during MEV internalization. By using zero-knowledge (ZK) proofs and encrypted mempools, SBB encrypts user transactions without disrupting the user experience. It enables rollups to capture MEV profitably while keeping users protected from economic threats.
 
-* Adopt enhanced security measures, protecting users from censorship and harmful Miner Extractable Value (MEV) such as frontrunning and sandwiching
-* Guarantee fast finality with strong preconfirmations for inclusion guarantees on Ethereum
-* Provide seamless interoperability eliminating the complexities of cross-rollup bridging.
+SBB runs entirely in the user's browser, so there's no need to install additional apps or extensions. Thanks to recent optimizations, encryption and proof generation now take just one second, making the process almost instant.
 
-### Benefits of Building with Radius
+Curie Testnet: [https://x.com/radius\_xyz/status/1724082176818573399](https://x.com/radius\_xyz/status/1724082176818573399)​
 
-1. **Autonomy in sequencing**: Rollups have flexible sequencing options that align with their values and goals, including using their own proposer and maintaining full control over their sequencing rights.
-2. **Selective composability**: Rollups can choose which rollups to communicate with based on their composability requirements, allowing ones with different execution environments to achieve customized scalability. Rollups also have the flexibility to opt out of selective composability as needed.
-3. **User-protected revenue**: Rollups can generate revenue while protecting users through a divided block design: For example, in top-of-block (ToB) rollups can build ToB for revenue with backrunning bundles based on the previous state of the rollup, and in bottom-of-block (BoB) includes a built-in _trustless sequencing engine_.
+#### SBB Encryption Algorithms: PVDE and SKDE
 
-### Key components of Radius
+**Practical Verifiable Delay Encryption (PVDE)**: This zero-knowledge (ZK) algorithm, developed by Radius, eliminates the need for external trust in key generation. PVDE allows rollups to create proofs for complex cryptographic operations and timelock puzzles in just one second, ensuring fast and secure performance.
 
-1. **Trustless Sequencing Engine**: Uses cryptographic algorithms to prevent censorship and harmful MEV within [encrypted mempools](https://docs.theradius.xyz/deep-dive/encrypted-mempool).
-2. **Based Sequencing**: Ensures fast preconfirmations without relying on the trust of the rollup, allowing users to create the next transactions confidently.
-3. **Shared Sequencing**: Unifies rollups through state synchronization for atomic composability, providing a seamless interoperability experience for users.
+{% embed url="https://ethresear.ch/t/mev-resistant-zk-rollups-with-practical-vde-pvde/12677" %}
+
+**Single Key Delay Encryption (SKDE)**: Another ZK algorithm, SKDE reduces the load on sequencers by using a single encryption key for all transactions within a block. This design boosts efficiency while still protecting against MEV attacks like frontrunning and censorship.Benefits of Building with Radius
+
+{% embed url="https://ethresear.ch/t/radius-skde-enhancing-rollup-composability-with-trustless-sequencing/19185" %}
+
+### **Slashing for Security**
+
+SBB includes built-in slashing mechanisms to prevent sequencers from reordering transactions. Rollups can secure this system using their own tokens or leverage Ethereum’s security via restaking protocols like [EigenLayer](https://www.eigenlayer.xyz/) and [Symbiotic](https://symbiotic.fi/).
+
+***
+
+## Revenue Maximization
+
+Radius enhances liquidity access across the Ethereum ecosystem, enabling profitable MEV strategies such as CEX-DEX arbitrage, cross-rollup arbitrage, and Ethereum-rollup arbitrage (based sequencing). Both Lighthouse and SBB are continuously upgraded to unlock new revenue opportunities.
+
+### Cross-Rollup Arbitrage
+
+Radius is partnering with [Avail](https://www.availproject.org/) to create a protocol for guaranteed cross-rollup transaction execution, ensuring synchronous atomic transactions. This integration into Lighthouse and SBB will help rollups capture value from cross-rollup arbitrage, maximizing profits.
+
+Demo: [https://x.com/radius\_xyz/status/1809120933631963165](https://x.com/radius\_xyz/status/1809120933631963165)
+
+{% embed url="https://ethresear.ch/t/cross-rollup-synchronous-atomic-execution/20193" %}
+
+### Based Sequencing
+
+By connecting Ethereum liquidity to rollups, Radius enables searchers to discover new arbitrage opportunities, ultimately boosting rollup revenue.
+
+{% embed url="https://ethresear.ch/t/derivatives-market-for-implementing-based-sequencing/19593" %}
+
+
 
