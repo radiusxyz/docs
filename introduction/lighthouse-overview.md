@@ -1,4 +1,8 @@
-# Architecture
+---
+description: Key Requirements, Architecture, Specifications, and Security
+---
+
+# Lighthouse Overview
 
 ### 1. Lighthouse: Key Requirements
 
@@ -34,7 +38,7 @@ By addressing these requirements, Lighthouse promotes a unified, revenue-enhanci
 
 ***
 
-### 2. Architecture Overview
+### 2. Architecture
 
 <figure><img src="../.gitbook/assets/image (22).png" alt=""><figcaption><p>Lighthouse Architecture</p></figcaption></figure>
 
@@ -163,6 +167,8 @@ This diagram captures the core interactions and enforcements in Lighthouse, ensu
       5. `submitToB`: Records the transactions for the winning Builder’s ToB space.
 
 #### The timing and sequence of actions
+
+<figure><img src="../.gitbook/assets/image (23).png" alt=""><figcaption></figcaption></figure>
 
 Here’s a breakdown of each step in terms of timing:
 
