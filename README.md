@@ -10,7 +10,11 @@ Radius is developing Lighthouse and Secure Block Building (SBB) to help rollups 
 
 <figure><img src=".gitbook/assets/image (21).png" alt=""><figcaption></figcaption></figure>
 
-Lighthouse is a decentralized network that allows rollups to directly capture MEV. It works by connecting rollups with specialized traders—such as searchers and builders—who create MEV bundles based on high-value arbitrage strategies. Rollups then prioritize these bundles at the top of each block before user transactions, guaranteeing execution and generating revenue by internalizing MEV.
+**Lighthouse** is a decentralized network designed to help rollups capture MEV (Maximal Extractable Value). By connecting rollups with specialized traders like searchers and builders, Lighthouse facilitates the coordination of MEV bundles which are profitable arbitrage strategies. Rollups prioritize these bundles at the top of each block, ensuring execution and generating revenue.&#x20;
+
+The goal of Lighthouse is to create a sustainable revenue model for rollups by internalizing MEV opportunities. It promotes an open, competitive blockspace marketplace, benefiting both rollups and builders through optimized MEV capture and efficient coordination.
+
+Lighthouse supports a variety of high-value strategies, including: CEX-DEX arbitrage, atomic arbitrage, liquidations, cross-rollup arbitrage, and Ethereum-rollup arbitrage.
 
 ### Secure Block Building (SBB): User Protection
 

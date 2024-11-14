@@ -3,6 +3,7 @@
 ## Introduction
 
 * [Product Overview](README.md)
+* [Architecture](introduction/architecture.md)
 
 ## Testnet
 
