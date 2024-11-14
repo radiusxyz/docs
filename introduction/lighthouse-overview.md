@@ -2,9 +2,9 @@
 description: Key Requirements, Architecture, Specifications, and Security
 ---
 
-# Lighthouse Overview
+# Lighthouse
 
-### 1. Lighthouse: Key Requirements
+### 1. Key Requirements
 
 #### User Protection
 
