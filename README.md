@@ -16,9 +16,9 @@ The goal of Lighthouse is to create a sustainable revenue model for rollups by i
 
 Lighthouse supports a variety of high-value strategies, including: CEX-DEX arbitrage, atomic arbitrage, liquidations, cross-rollup arbitrage, and Ethereum-rollup arbitrage.
 
-### Secure Block Building (SBB): User Protection
+### Secure Block Building: User Protection
 
-_Secure Block Building (SBB)_ is a protection module for protecting users from harmful MEV, like frontrunning and sandwich attacks, which can happen during MEV internalization. By using zero-knowledge (ZK) proofs and encrypted mempools, SBB encrypts user transactions without disrupting the user experience. It enables rollups to capture MEV profitably while keeping users protected from economic threats.
+**Secure Block Building (SBB)** is a protection module for protecting users from harmful MEV, like frontrunning and sandwich attacks, which can happen during MEV internalization. By using zero-knowledge (ZK) proofs and encrypted mempools, SBB encrypts user transactions without disrupting the user experience. It enables rollups to capture MEV profitably while keeping users protected from economic threats.
 
 SBB runs entirely in the user's browser, so there's no need to install additional apps or extensions. Thanks to recent optimizations, encryption and proof generation now take just one second, making the process almost instant.
 
