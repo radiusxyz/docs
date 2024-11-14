@@ -1,4 +1,4 @@
-# Encrypted Pre-Confirmation
+# Encrypted Preconfirmations
 
 ### **Introduction**
 
@@ -90,5 +90,5 @@ Once the block is finalized, the user requests the final Merkle Proof with the l
 
 ### Complete Sequence Diagram
 
-<figure><img src="../../.gitbook/assets/image (1).png" alt=""><figcaption><p>Transaction Lifecycle</p></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (1) (1).png" alt=""><figcaption><p>Transaction Lifecycle</p></figcaption></figure>
 
