@@ -1,5 +1,7 @@
 # Architecture
 
+## Lighthouse: Key Requirements
+
 #### 1. User Protection
 
 Lighthouse balances revenue generation with user protection through a **Top-of-Block (ToB) / Bottom-of-Block (BoB)** framework that allocates blockspace strategically:
@@ -32,7 +34,7 @@ By addressing these requirements, Lighthouse promotes a unified, revenue-enhanci
 
 ***
 
-## Architecture
+## Architecture Overview
 
 <figure><img src="../.gitbook/assets/image (22).png" alt=""><figcaption><p>Lighthouse Architecture</p></figcaption></figure>
 
