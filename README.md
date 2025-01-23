@@ -2,7 +2,9 @@
 
 ### Lighthouse and Secure Block Building (SBB)
 
-Radius builds economic infrastructure enabling rollups to capture MEV revenue while protecting users. Our solution combines Lighthouse to connect rollups with searchers to capture MEV opportunities with Secure Block Building (SBB) to ensure safe MEV capture while protecting user transactions. Together, they enable rollups to generate sustainable revenue without compromising user trust.
+Radius builds economic infrastructure enabling rollups to capture MEV revenue while protecting users.
+
+Our solution combines **Lighthouse** to connect rollups with searchers to capture MEV opportunities with **Secure Block Building (SBB)** to ensure safe MEV capture while protecting user transactions. Together, they enable rollups to generate sustainable revenue without compromising user trust.
 
 ***
 
@@ -51,6 +53,8 @@ Based Sequencing bridges Ethereum liquidity with rollups, unlocking new MEV oppo
 
 {% embed url="https://ethresear.ch/t/derivatives-market-for-implementing-based-sequencing/19593" %}
 
+***
+
 ### Secure Block Building (SBB): Built-In User Protection
 
 **Secure Block Building** leverages cryptographic techniques to enable MEV revenue generation while protecting user transactions from harmful practices like censorship and transaction reordering.
@@ -76,9 +80,9 @@ See Curie Testnet (SBB): [https://x.com/radius\_xyz/status/1724082176818573399](
 
 SBB includes a slashing mechanism to prevent any single sequencer from reordering transactions. This is implemented through the rollup’s native security or by smart contracts that leverage shared security protocols like [EigenLayer](https://www.eigenlayer.xyz/) or [Symbiotic](https://symbiotic.fi/).
 
+***
 
-
-#### Getting Started
+### Getting Started
 
 Ready to integrate Lighthouse or Secure Block Building? Here’s how you can get started:
 
