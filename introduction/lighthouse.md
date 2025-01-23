@@ -40,7 +40,7 @@ By addressing these requirements, Lighthouse promotes a unified, revenue-enhanci
 
 ### 2. Lighthouse Network Architecture
 
-<figure><img src="../.gitbook/assets/image (22).png" alt=""><figcaption><p>Lighthouse Architecture</p></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (26).png" alt=""><figcaption></figcaption></figure>
 
 Lighthouse runs trustless, permissionless auctions between rollups and builders, creating an open ecosystem for blockspace allocation. Builders can bid for the Top-of-Block (ToB) segment, capture MEV, and settle auction fees using L1 native tokens.
 
