@@ -38,7 +38,7 @@ By addressing these requirements, Lighthouse promotes a unified, revenue-enhanci
 
 ***
 
-### 2. Architecture
+### 2. Lighthouse Network Architecture
 
 <figure><img src="../.gitbook/assets/image (22).png" alt=""><figcaption><p>Lighthouse Architecture</p></figcaption></figure>
 
@@ -128,7 +128,9 @@ Lighthouse operates based on a set of design dimensions that shape the interacti
 
 By selecting these options, we have designed Lighthouse to support an open, efficient, and reliable blockspace marketplace. Each choice is intended to align with our goals of decentralization, transparency, and maximizing economic incentives, creating a robust platform for both Rollup Sequencers and Builders to interact in a trustless and decentralized manner.
 
-<figure><img src="../.gitbook/assets/image.png" alt=""><figcaption></figcaption></figure>
+
+
+<figure><img src="../.gitbook/assets/image (25).png" alt=""><figcaption></figcaption></figure>
 
 The diagram illustrates the sequence of actions and interactions between the **Sequencer**, **Lighthouse**, **Builder**, and **L1** contracts within the Lighthouse. The process is as follows:
 

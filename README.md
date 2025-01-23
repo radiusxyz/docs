@@ -2,13 +2,13 @@
 
 ### Lighthouse and Secure Block Building (SBB)
 
+<figure><img src=".gitbook/assets/image (24).png" alt=""><figcaption></figcaption></figure>
+
 Radius builds economic infrastructure enabling rollups to capture MEV revenue while protecting users. Our solution combines **Lighthouse** to connect rollups with searchers to capture MEV opportunities with **Secure Block Building (SBB)** to ensure safe MEV capture while protecting user transactions. Together, they enable rollups to generate sustainable revenue without compromising user trust.
 
 ***
 
 ### Lighthouse: MEV-Powered Revenue Engine
-
-<figure><img src=".gitbook/assets/image (21).png" alt=""><figcaption></figcaption></figure>
 
 **Lighthouse** is a decentralized network that connects rollups with searchers to capture MEV during block production. Instead of relying on harmful practices like censorship and transaction reordering, it helps generate revenue through strategies that improve market efficiency, such as arbitrage and liquidations.
 
@@ -30,7 +30,7 @@ These strategies ensure consistent, scalable revenue while benefiting both rollu
 
 
 
-### Advanced Features
+#### Advanced Features
 
 Radius enhances liquidity access across the Ethereum ecosystem, enabling profitable MEV strategies such as CEX-DEX arbitrage, cross-rollup arbitrage, and Ethereum-rollup arbitrage (based sequencing). Both Lighthouse and SBB are continuously upgraded to unlock new revenue opportunities.
 
@@ -64,7 +64,7 @@ See Curie Testnet (SBB): [https://x.com/radius\_xyz/status/1724082176818573399](
 
 ​
 
-### Encryption Technologies
+#### Encryption Technologies
 
 **Practical Verifiable Delay Encryption (PVDE)**: A ZK algorithm developed by Radius that eliminates external trust in key generation. It creates proofs for cryptographic operations and timelock puzzles in under one second.
 

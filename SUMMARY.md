@@ -3,7 +3,7 @@
 ## Introduction
 
 * [Overview](README.md)
-* [Lighthous](introduction/lighthous.md)
+* [Lighthouse](introduction/lighthouse.md)
 
 ## Testnet
 
