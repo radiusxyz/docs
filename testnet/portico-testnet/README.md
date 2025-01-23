@@ -4,7 +4,7 @@
 
 The Portico Testnet introduces two essential rollup functionalities: **Sequencing Liveness** and **Multi-Rollup Sequencing**. This guide helps developers understand how Radius ensures these functionalities while preserving the fundamental values of rollups.&#x20;
 
-Explore the integration of the shared sequencing layer with rollups on [Portico Testnet](https://x.com/radius\_xyz/status/1765272246891974761) (closed).
+Explore the integration of the shared sequencing layer with rollups on [Portico Testnet](https://x.com/radius_xyz/status/1765272246891974761) (closed).
 
 ### What is Sequencing Liveness?
 
@@ -12,8 +12,8 @@ Sequencing liveness involves the continuous processing of transactions and block
 
 Before delving into how Radius ensures sequencing liveness, let's examine two key approaches it employs:
 
-* [**Leader-Based Sequencing**](distributed-sequencing/leader-based.md): Radius adopts a leader-based sequencing approach enabled by the encrypted mempool. A designated sequencer node (known as the leader) takes the lead in block sequencing. Other sequencer nodes (followers) receive the sequenced block from the leader. This design choice significantly enhances block production efficiency without exposing the network to censorship or sandwich attacks_._
-* [**Pre-Confirmation Mechanism**](encrypted-mempool.md#pre-confirmation): The leader provides order commitment (pre-confirmations) of ordered transactions to the users before decrypting the transactions. This step prevents manipulative behavior and mitigates centralization risks_._
+* [**Leader-Based Sequencing**](distributed-sequencing/leader-based.md): Radius adopts a leader-based sequencing approach enabled by the encrypted mempool. A designated sequencer node (known as the leader) takes the lead in block sequencing. Other sequencer nodes (followers) receive the sequenced block from the leader. This design choice significantly enhances block production efficiency without exposing the network to censorship or sandwich attack&#x73;_._
+* [**Pre-Confirmation Mechanism**](encrypted-mempool.md#pre-confirmation): The leader provides order commitment (pre-confirmations) of ordered transactions to the users before decrypting the transactions. This step prevents manipulative behavior and mitigates centralization risk&#x73;_._
 
 ### Sequencing Liveness Failure Scenarios
 
