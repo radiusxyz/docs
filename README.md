@@ -28,8 +28,6 @@ Lighthouse supports diverse MEV strategies including:
 
 These strategies ensure consistent, scalable revenue while benefiting both rollups and searchers through optimized MEV capture.
 
-
-
 #### Advanced Features
 
 Radius enhances liquidity access across the Ethereum ecosystem, enabling profitable MEV strategies such as CEX-DEX arbitrage, cross-rollup arbitrage, and Ethereum-rollup arbitrage (based sequencing). Both Lighthouse and SBB are continuously upgraded to unlock new revenue opportunities.
@@ -62,8 +60,6 @@ Based Sequencing bridges Ethereum liquidity with rollups, unlocking new MEV oppo
 
 See Curie Testnet (SBB): [https://x.com/radius\_xyz/status/1724082176818573399](https://x.com/radius_xyz/status/1724082176818573399)
 
-​
-
 #### Encryption Technologies
 
 **Practical Verifiable Delay Encryption (PVDE)**: A ZK algorithm developed by Radius that eliminates external trust in key generation. It creates proofs for cryptographic operations and timelock puzzles in under one second.
@@ -86,6 +82,4 @@ Ready to integrate Lighthouse or Secure Block Building? Here’s how you can get
 
 * **Explore**: [GitHub](https://github.com/radius_xyz)
 * **Contact Us**:&#x20;
-
-
 
