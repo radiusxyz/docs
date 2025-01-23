@@ -2,7 +2,7 @@
 
 ## Introduction
 
-* [Product Overview](README.md)
+* [Overview](README.md)
 * [Lighthouse](introduction/lighthouse-overview.md)
 
 ## Testnet
@@ -35,6 +35,6 @@
 ## LINK
 
 * [THERADIUS.XYZ](https://www.theradius.xyz)
-* [TWTTER](https://twitter.com/radius\_xyz)
+* [TWTTER](https://twitter.com/radius_xyz)
 * [BLOG](https://mirror.xyz/0x957084A1F20AB33cfA0cE07ed57F50c05954999C)
 * [GITHUB](https://github.com/radiusxyz)
