@@ -2,7 +2,7 @@
 
 ### Lighthouse and Secure Block Building (SBB)
 
-Radius builds economic infrastructure that enables rollups to capture MEV revenue while protecting users. Our solution include: \*\*\*\*
+Radius builds economic infrastructure that enables rollups to capture MEV revenue while protecting users. Our solution include:
 
 * **Lighthouse**: A decentralized network that connects rollups with searchers to capture MEV opportunities for sustainable revenue generation.
 * **Secure Block Building (SBB**): A built-in component for rollups that minimizes harmful MEV and secures user transactions through cryptographic techniques.
@@ -88,7 +88,7 @@ See Curie Testnet (SBB): [https://x.com/radius\_xyz/status/1724082176818573399](
 
 ### Getting Started
 
-Ready to integrate Lighthouse or Secure Block Building? Here’s how you can get Ready to integrate Lighthouse or Secure Block Building? Here’s how you can get started:
+Ready to integrate Lighthouse or Secure Block Building? Here’s how you can get started:
 
 * **Explore**: [GitHub](https://github.com/radius_xyz)
 * **Contact Us**: [Contact Form](https://www.theradius.xyz/contact)
