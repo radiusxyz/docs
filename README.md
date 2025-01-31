@@ -2,7 +2,7 @@
 
 ### Lighthouse and Secure Block Building (SBB)
 
-Radius builds economic infrastructure that enables rollups to capture MEV revenue while protecting users. Our solution include:
+Radius builds economic infrastructure that enables rollups to capture MEV revenue while protecting users. Our solutions include:
 
 * **Lighthouse**: A decentralized network that connects rollups with searchers to capture MEV opportunities for sustainable revenue generation.
 * **Secure Block Building (SBB**): A built-in component for rollups that minimizes harmful MEV and secures user transactions through cryptographic techniques.
