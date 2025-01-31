@@ -91,7 +91,7 @@ See Curie Testnet (SBB): [https://x.com/radius\_xyz/status/1724082176818573399](
 Ready to integrate Lighthouse or Secure Block Building? Here’s how you can get Ready to integrate Lighthouse or Secure Block Building? Here’s how you can get started:
 
 * **Explore**: [GitHub](https://github.com/radius_xyz)
-* Contact Us: [Contact Form](https://www.theradius.xyz/contact)
+* **Contact Us**: [Contact Form](https://www.theradius.xyz/contact)
 
 
 
