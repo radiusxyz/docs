@@ -7,8 +7,6 @@ Radius builds economic infrastructure that enables rollups to capture MEV revenu
 * **Lighthouse**: A decentralized network that connects rollups with searchers to capture MEV opportunities for sustainable revenue generation.
 * **Secure Block Building (SBB**): A built-in component for rollups that minimizes harmful MEV and secures user transactions through cryptographic techniques.
 
-Together, these components enable rollups to generate MEV revenue efficiently while maintaining user trust.
-
 <figure><img src=".gitbook/assets/image (24).png" alt=""><figcaption></figcaption></figure>
 
 ***
