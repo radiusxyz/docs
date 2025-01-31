@@ -61,7 +61,7 @@ Secure Block Building is a cryptographic primitive designed to protect users fro
 * **Encrypted Transactions**: User transactions are encrypted directly in the user’s browser, requiring no additional installations or software.
 * **Minimal Latency**: Optimized cryptographic techniques reduce encryption and proof generation to under one second.
 
-#### Encryption Technologies
+**Encryption Technologies**
 
 **Practical Verifiable Delay Encryption (PVDE)**: A ZK-based encryption algorithm developed by Radius, PVDE eliminates external trust in key generation. It generates proofs for cryptographic operations and timelock puzzles in under one second.
 
@@ -71,7 +71,7 @@ Secure Block Building is a cryptographic primitive designed to protect users fro
 
 {% embed url="https://ethresear.ch/t/radius-skde-enhancing-rollup-composability-with-trustless-sequencing/19185" %}
 
-#### Slashing Mechanisms&#x20;
+**Slashing Mechanisms**&#x20;
 
 SBB includes a slashing mechanism that prevents a single sequencer from reordering transactions. This is enforced via:
 
