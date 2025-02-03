@@ -63,7 +63,7 @@ This balanced architecture benefits both builders and users: builders gain acces
 1. **Seller (`Proposer`)**
    * **Role**: The Proposer is an entity with the signing key responsible for submitting blocks.
    * **Responsibilities:** Includes the winning builder's transactions in the Top-of-Block (ToB) for the assigned slot.
-   * **Block Creation**: The rollup sequencer acts as the proposer, constructing the block by including the builder's bundle. The proposer ensures the block includes both ToB and BoB. Ultimately, the sequencer is fully responsible for the final block contnet, managing the complete execution of transactions.
+   * **Block Creation**: The rollup sequencer acts as the proposer, constructing the block by including the builder's bundle. The proposer ensures the block includes both ToB and BoB. Ultimately, the sequencer is fully responsible for the final block content, managing the complete execution of transactions.
 2. **Buyer (`Builder`)**:
    * **Role**: The Builder constructs the content of the block.
    * **Responsibilities:** Purchases the right to include transactions in ToB for a designated slot.
