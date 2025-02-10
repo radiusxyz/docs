@@ -2,8 +2,9 @@
 
 ## Introduction
 
-* [Overview](README.md)
-* [Lighthouse](introduction/lighthouse.md)
+* [Overview: Lighthouse and SBB](README.md)
+* [Lighthouse Network](introduction/lighthouse-network.md)
+* [Roadmap](introduction/roadmap.md)
 
 ## Testnet
 
