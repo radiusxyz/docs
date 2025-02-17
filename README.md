@@ -73,7 +73,7 @@ Secure Block Building is a cryptographic primitive designed to protect users fro
 
 {% embed url="https://ethresear.ch/t/mev-resistant-zk-rollups-with-practical-vde-pvde/12677" %}
 
-**Single Key Delay Encryption (SKDE)**: SKDE optimizes sequencer efficiency by using a unified encryption key per block, preserving MEV protection while maintaining rollup composability and performance.
+**Single Key Delay Encryption (SKDE)**: SKDE optimizes tx\_orderer efficiency by using a unified encryption key per block, preserving MEV protection while maintaining rollup composability and performance.
 
 {% embed url="https://ethresear.ch/t/radius-skde-enhancing-rollup-composability-with-trustless-sequencing/19185" %}
 
@@ -81,7 +81,7 @@ By connecting Ethereum liquidity to rollups, Radius enables searchers to discove
 
 **Slashing Mechanisms**&#x20;
 
-SBB includes a slashing mechanism that prevents a single sequencer from reordering transactions. This is enforced via:
+SBB includes a slashing mechanism that prevents a single tx\_orderer from reordering transactions. This is enforced via:
 
 * Native rollup security
 * Shared security protocols like [EigenLayer](https://www.eigenlayer.xyz/) or [Symbiotic](https://symbiotic.fi/).
