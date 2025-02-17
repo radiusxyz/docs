@@ -110,11 +110,11 @@ echo "Expected output: true"
 # ============================
 echo "Registering tx_orderer..."
 cast send "$LIVENESS_CONTRACT_ADDRESS" --rpc-url "$RPC_URL" --private-key "$TX_ORDERER_PRIVATE_KEY" \
-"registerSequencer(string clusterId)" "$CLUSTER_ID"
+"registerTxOrderer(string clusterId)" "$CLUSTER_ID"
 
 echo "Checking tx_orderer registration..."
 cast call "$LIVENESS_CONTRACT_ADDRESS" --rpc-url "$RPC_URL" \
-"isSequencerRegistered(string clusterId, address operating)(bool)" "$CLUSTER_ID" "$TX_ORDERER_ADDRESS"
+"isTxOrdererRegistered(string clusterId, address txOrderer)(bool)" "$CLUSTER_ID" "$TX_ORDERER_ADDRESS"
 echo "Expected output: true"
 
 ```
@@ -202,11 +202,11 @@ echo "Expected output: true"
 # ============================
 echo "Registering tx_orderer..."
 cast send "$LIVENESS_CONTRACT_ADDRESS" --rpc-url "$RPC_URL" --ledger \
-"registerSequencer(string clusterId)" "$CLUSTER_ID"
+"registerTxOrderer(string clusterId)" "$CLUSTER_ID"
 
 echo "Checking tx_orderer registration..."
 cast call "$LIVENESS_CONTRACT_ADDRESS" --rpc-url "$RPC_URL" \
-"isSequencerRegistered(string clusterId, address operating)(bool)" "$CLUSTER_ID" "$TX_ORDERER_ADDRESS"
+"isTxOrdererRegistered(string clusterId, address txOrderer)(bool)" "$CLUSTER_ID" "$TX_ORDERER_ADDRESS"
 echo "Expected output: true"
 
 ```
