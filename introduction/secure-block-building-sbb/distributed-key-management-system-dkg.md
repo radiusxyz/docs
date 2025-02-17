@@ -32,7 +32,7 @@ A unified DKG network addresses this by supporting all block intervals, optimizi
 5. **Puzzle Solving**
    * A solver derives the decryption key by solving a time-lock puzzle, ensuring transactions remain encrypted until processing time.
 6. **Transaction Decryption**
-   * Transactions are decrypted in an ordered manner for execution<mark style="color:orange;">.</mark>
+   * Transactions are decrypted in an ordered manner for execution.
 
 ### Key Assumptions
 
