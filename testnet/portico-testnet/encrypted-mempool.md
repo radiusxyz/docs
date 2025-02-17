@@ -10,7 +10,7 @@ Users are entities that submit transactions to the rollup, aiming to safeguard t
 
 In the context of preventing malicious Miner Extractable Value (MEV) actions, users interact with the shared sequencing layer through a sequence of steps designed to ensure transaction integrity and order. This process involves encryption techniques to protect transactions from being censored or reordered maliciously. Radius uses a cryptographic method called [Practical Verifiable Delay Encryption (PVDE)](https://ethresear.ch/t/mev-resistant-zk-rollups-with-practical-vde-pvde/12677), which relies on a time-lock puzzle to conceal transaction details until a predetermined time is reached.
 
-<figure><img src="../../.gitbook/assets/image (13).png" alt=""><figcaption><p><em>User specific actions</em></p></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (13) (1).png" alt=""><figcaption><p><em>User specific actions</em></p></figcaption></figure>
 
 ### **Process Overview**
 
@@ -28,8 +28,8 @@ To simulate real-world user interactions and validate the efficacy of this proce
 
 Once the time-lock puzzle and its corresponding zk-proof are prepared, and the transaction is encrypted, the user is set to engage with the sequencing layer. It's important to highlight that encrypting the transaction is not mandatory; users have the flexibility to submit transactions directly to the sequencer in their original, unencrypted form. However, choosing to submit a transaction without encryption means that the system cannot ensure protection against Miner Extractable Value (MEV) risks. This optionality allows users to balance their need for security against MEV with their preferences for transaction processing.
 
-* [request\_encrypt\_tx](code-references.md#request\_encrypt\_tx)
-* [encrypt\_tx\_with\_zkp](code-references.md#encrypt\_tx\_with\_zkp)
+* [request\_encrypt\_tx](code-references.md#request_encrypt_tx)
+* [encrypt\_tx\_with\_zkp](code-references.md#encrypt_tx_with_zkp)
 * [EncryptTxResponse](code-references.md#encrypttxresponse)
 
 ## User ↔ Sequencer
@@ -46,6 +46,6 @@ If a user receives the order-commitment before a specified time $$t$$ has elapse
 It's important to note that users have the option to reduce transaction fees by sending the decryption key to the sequencing layer immediately after receiving the pre-confirmation. This action relieves the sequencing layer of the computational resources and time needed to solve the time-lock puzzle, making the process more efficient.
 
 * [SendEncryptedTxResponse](code-references.md#sendencryptedtxresponse)
-* [provide\_decryption\_key](code-references.md#provide\_decryption\_key)
+* [provide\_decryption\_key](code-references.md#provide_decryption_key)
 * [ProvideDecryptionKey](code-references.md#providedecryptionkey)
 

@@ -20,11 +20,11 @@ The rollup operator is described by its address and public\_key.
 
 The `add_rollup()` function verifies if a rollup with the specified ID already has a corresponding key in the database. If not, it adds the rollup along with its metadata to the database.
 
-* [add\_rollup](code-references.md#add\_rollup)
+* [add\_rollup](code-references.md#add_rollup)
 
 ## Getting the block from the sequencing layer
 
-<figure><img src="../../.gitbook/assets/image (11) (1).png" alt=""><figcaption><p><em>Getting the block of raw transactions from the sequencing layer</em></p></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (11) (1) (1).png" alt=""><figcaption><p><em>Getting the block of raw transactions from the sequencing layer</em></p></figcaption></figure>
 
 After the rollup has been added to the list of rollups, sequencing can commence. The process involves the rollup initiating a request for a block of raw transactions. This is done by making an RPC call to the `get_raw_tx_list` method on the sequencing layer. The method, in response, returns a structure named `GetRawTxListResponse`.&#x20;
 

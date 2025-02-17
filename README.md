@@ -1,4 +1,4 @@
-# Overview
+# Overview: Lighthouse and SBB
 
 ### Lighthouse and Secure Block Building (SBB)
 
@@ -7,11 +7,15 @@ Radius builds economic infrastructure that enables rollups to capture MEV revenu
 * **Lighthouse**: A decentralized network that connects rollups with searchers to capture MEV opportunities for sustainable revenue generation.
 * **Secure Block Building (SBB**): A built-in component for rollups that minimizes harmful MEV and secures user transactions through cryptographic techniques.
 
-<figure><img src=".gitbook/assets/image (24).png" alt=""><figcaption></figcaption></figure>
+<figure><img src=".gitbook/assets/image (24) (1).png" alt=""><figcaption></figcaption></figure>
 
 ***
 
 ### Lighthouse: MEV-Powered Revenue Engine
+
+**Secure Block Building (SBB)** is a protection module for protecting users from harmful MEV, like frontrunning and sandwich attacks, which can happen during MEV internalization. By using zero-knowledge (ZK) proofs and encrypted mempools, SBB encrypts user transactions without disrupting the user experience. It enables rollups to capture MEV profitably while keeping users protected from economic threats.
+
+SBB runs entirely in the user's browser, so there's no need to install additional apps or extensions. Thanks to recent optimizations, encryption and proof generation now take just one second, making the process almost instant.
 
 Lighthouse is a decentralized network that connects rollups with searchers to capture MEV during block production. Instead of relying on harmful MEV practices like censorship and reordering, Lighthouse enables rollups to harness MEV strategies that improve market efficiency, such as arbitrage and liquidations.
 
@@ -63,6 +67,8 @@ Secure Block Building is a cryptographic primitive designed to protect users fro
 
 **Encryption Technologies**
 
+**Practical Verifiable Delay Encryption (PVDE)**: This zero-knowledge (ZK) algorithm, developed by Radius, eliminates the need for external trust in key generation. PVDE allows rollups to create proofs for complex cryptographic operations and timelock puzzles in just one second, ensuring fast and secure performance.
+
 **Practical Verifiable Delay Encryption (PVDE)**: A ZK-based encryption algorithm developed by Radius, PVDE eliminates external trust in key generation. It generates proofs for cryptographic operations and timelock puzzles in under one second.
 
 {% embed url="https://ethresear.ch/t/mev-resistant-zk-rollups-with-practical-vde-pvde/12677" %}
@@ -70,6 +76,8 @@ Secure Block Building is a cryptographic primitive designed to protect users fro
 **Single Key Delay Encryption (SKDE)**: SKDE optimizes sequencer efficiency by using a unified encryption key per block, preserving MEV protection while maintaining rollup composability and performance.
 
 {% embed url="https://ethresear.ch/t/radius-skde-enhancing-rollup-composability-with-trustless-sequencing/19185" %}
+
+By connecting Ethereum liquidity to rollups, Radius enables searchers to discover new arbitrage opportunities, ultimately boosting rollup revenue.
 
 **Slashing Mechanisms**&#x20;
 

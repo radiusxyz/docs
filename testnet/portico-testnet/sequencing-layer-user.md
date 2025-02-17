@@ -20,12 +20,12 @@ The process by which the shared sequencing layer interacts with user-submitted d
 
 This structured approach ensures that transactions are processed securely, efficiently, and transparently, balancing the protection of both users and sequencers.
 
-* [send\_encrypted\_tx](code-references.md#send\_encrypted\_tx)
+* [send\_encrypted\_tx](code-references.md#send_encrypted_tx)
 
 Currently, transaction ordering is managed on a First Come First Serve (FCFS) basis. This approach is evident in the `add_encrypted_tx` function, where the transaction order is determined by incrementing the current number of transactions in the list. We plan to introduce a Fee Auction mechanism in the future.&#x20;
 
-* [add\_encrypted\_tx](code-references.md#add\_encrypted\_tx)
+* [add\_encrypted\_tx](code-references.md#add_encrypted_tx)
 
 For a clearer understanding, take a look at the sequence diagram below.
 
-<figure><img src="../../.gitbook/assets/image (2) (1).png" alt=""><figcaption><p><em>Sequencing layer - User interaction</em></p></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (2) (1) (1).png" alt=""><figcaption><p><em>Sequencing layer - User interaction</em></p></figcaption></figure>

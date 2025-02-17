@@ -1,8 +1,8 @@
-# Loggia Testnet With Radius AVS
+# Loggia Testnet with Radius AVS
 
 Radius launches Loggia Testnet, offering decentralized sequencing for rollups. Powered by Radius AVS (Actively Validated Services) built on Eigenlayer, Loggia enables rollups to achieve censorship resistance, while economically securing sequencing liveness and block safety with restaked ETH.
 
-<figure><img src="../../.gitbook/assets/image (20).png" alt=""><figcaption><p>Architecture Overview</p></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (20) (1).png" alt=""><figcaption><p>Architecture Overview</p></figcaption></figure>
 
 A decentralized rollup includes the following components:
 

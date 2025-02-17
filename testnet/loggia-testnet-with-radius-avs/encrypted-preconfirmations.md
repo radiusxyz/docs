@@ -6,7 +6,7 @@ Users are entities that submit transactions to the proposer, aiming to safeguard
 
 In the context of preventing malicious Miner Extractable Value (MEV) actions, users interact with the proposer through a sequence of steps designed to ensure transaction integrity and order. This process involves encryption techniques to protect transactions from being censored or reordered maliciously. Radius uses a cryptographic method called [Practical Verifiable Delay Encryption (PVDE)](https://ethresear.ch/t/mev-resistant-zk-rollups-with-practical-vde-pvde/12677), which relies on a time-lock puzzle to conceal transaction details until a predetermined time is reached.
 
-<figure><img src="../../.gitbook/assets/image (2).png" alt=""><figcaption><p>User's actions before receiving order commitment</p></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (2) (1).png" alt=""><figcaption><p>User's actions before receiving order commitment</p></figcaption></figure>
 
 ### **Receiving The Order Commitment**
 
@@ -55,11 +55,11 @@ Currently, transaction ordering is managed on a First Come First Serve (FCFS) ba
 
 For a clearer understanding, take a look at the sequence diagram below.
 
-<figure><img src="../../.gitbook/assets/image (5).png" alt=""><figcaption><p>Proposer Actions</p></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (5) (1).png" alt=""><figcaption><p>Proposer Actions</p></figcaption></figure>
 
 ### Order Verification
 
-<figure><img src="../../.gitbook/assets/image (4).png" alt=""><figcaption><p>Order Verification with Order Commitment</p></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (4) (1).png" alt=""><figcaption><p>Order Verification with Order Commitment</p></figcaption></figure>
 
 #### Purpose and Structure of the Order Commitment
 
@@ -77,7 +77,7 @@ Each component of the order commitment serves a specific purpose:
     * **Solution**: To prevent this, the user must be provided with a commitment that includes information about the previous indexes. An unviolated block can be visualized as a Merkle Tree of transactions growing in one direction (assume to the right). The Merkle Proof for any given transaction in the subtree containing all previous transactions (to the left) will remain unchanged regardless of how large the tree grows by adding leaves to the right side.
     * **Consistency**: Even though the final Merkle Proof for the given transaction will differ in the final tree, the earlier partial Merkle Proof will consist of elements that form the initial parts of the final Merkle Tree. This ensures the integrity of the transaction order and prevents the proposer from inserting unauthorized transactions.
 
-    <figure><img src="../../.gitbook/assets/image (19).png" alt=""><figcaption><p>Partial Merkle Proof vs Final Merkle Proof</p></figcaption></figure>
+    <figure><img src="../../.gitbook/assets/image (19) (1).png" alt=""><figcaption><p>Partial Merkle Proof vs Final Merkle Proof</p></figcaption></figure>
 
 #### Finalization and Verification Process
 
@@ -90,5 +90,5 @@ Once the block is finalized, the user requests the final Merkle Proof with the l
 
 ### Complete Sequence Diagram
 
-<figure><img src="../../.gitbook/assets/image (1) (1).png" alt=""><figcaption><p>Transaction Lifecycle</p></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (1) (1) (1).png" alt=""><figcaption><p>Transaction Lifecycle</p></figcaption></figure>
 

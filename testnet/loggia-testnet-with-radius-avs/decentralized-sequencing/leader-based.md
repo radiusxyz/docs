@@ -18,7 +18,7 @@ For every RPC request made to any of the followers, the request and its associat
 
 The leader distributes the data to the followers to maintain a synchronized and updated state across the entire cluster. Generally, synchronization in the sequencing process involves every piece of data being propagated among the follower nodes. Syncing encrypted transactions, time-lockm puzzles, order commitments are carried out.
 
-<figure><img src="../../../.gitbook/assets/image (6).png" alt=""><figcaption><p>Leader's responsibilities</p></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (6) (1).png" alt=""><figcaption><p>Leader's responsibilities</p></figcaption></figure>
 
 The sequence diagram illustrates the actions that are managed by the leader proposer, eliminating the need for consensus:
 

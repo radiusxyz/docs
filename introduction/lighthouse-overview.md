@@ -2,7 +2,7 @@
 description: Key Requirements, Architecture, Specifications, and Security
 ---
 
-# Lighthouse
+# Lighthouse Network
 
 ### 1. Key Requirements
 
@@ -40,7 +40,7 @@ By addressing these requirements, Lighthouse promotes a unified, revenue-enhanci
 
 ### 2. Lighthouse Network Architecture
 
-<figure><img src="../.gitbook/assets/image (26).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (26) (1).png" alt=""><figcaption></figcaption></figure>
 
 Lighthouse runs trustless, permissionless auctions between rollups and builders, creating an open ecosystem for blockspace allocation. Builders can bid for the Top-of-Block (ToB) segment, capture MEV, and settle auction fees using L1 native tokens.
 
@@ -63,7 +63,7 @@ This balanced architecture benefits both builders and users: builders gain acces
 1. **Seller (`Proposer`)**
    * **Role**: The Proposer is an entity with the signing key responsible for submitting blocks.
    * **Responsibilities:** Includes the winning builder's transactions in the Top-of-Block (ToB) for the assigned slot.
-   * **Block Creation**: The rollup sequencer acts as the proposer, constructing the block by including the builder's bundle. The proposer ensures the block includes both ToB and BoB. Ultimately, the sequencer is fully responsible for the final block contnet, managing the complete execution of transactions.
+   * **Block Creation**: The rollup sequencer acts as the proposer, constructing the block by including the builder's bundle. The proposer ensures the block includes both ToB and BoB. Ultimately, the sequencer is fully responsible for the final block content, managing the complete execution of transactions.
 2. **Buyer (`Builder`)**:
    * **Role**: The Builder constructs the content of the block.
    * **Responsibilities:** Purchases the right to include transactions in ToB for a designated slot.
@@ -130,7 +130,7 @@ By selecting these options, we have designed Lighthouse to support an open, effi
 
 
 
-<figure><img src="../.gitbook/assets/image (25).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (25) (1).png" alt=""><figcaption></figcaption></figure>
 
 The diagram illustrates the sequence of actions and interactions between the **Sequencer**, **Lighthouse**, **Builder**, and **L1** contracts within the Lighthouse. The process is as follows:
 
@@ -170,7 +170,7 @@ This diagram captures the core interactions and enforcements in Lighthouse, ensu
 
 #### The timing and sequence of actions
 
-<figure><img src="../.gitbook/assets/image (23).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (23) (1).png" alt=""><figcaption></figcaption></figure>
 
 Here’s a breakdown of each step in terms of timing:
 
