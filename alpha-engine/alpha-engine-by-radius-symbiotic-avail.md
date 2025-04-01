@@ -330,10 +330,10 @@ Symbiotic supports diverse networks serving as essential building blocks for sha
 * [**RedStone**](https://x.com/redstone_defi): RedStone is the fastest-growing oracle in 2024, specialising in yield-bearing collateral for lending markets. Its Total Value Secured (TVS) grew from below $1bn in January to $6bn+ now.
 * [**Hyve DA**](https://x.com/Hyve_DA): Hyve is the first Data Availability (DA) solution designed to power any data-intensive Layer 2s, rollups, appchains, and even Layer 1s. Fully chain- and token-agnostic, HyveDA seamlessly supports any blockchain, regardless of its settlement layer, virtual machine, or native token.
 * [**Capx Cloud**](https://x.com/0xCapx) : Capx Cloud is a Symbiotic network that enables decentralized AI agent deployment, crypto-economically secured through Symbiotic protocol
-* [\*\*Kalypso](https://x.com/KalypsoProver):\*\* Kalypso by Marlin is a circuit-agnostic ZK Proof Marketplace supporting private inputs, using Symbiotic restaking to provide liveness and response times guarantees for proof generation.
-* [\*\*Drosera](https://x.com/KalypsoProver):\*\* Drosera is an automated risk management protocol for addressing any risk within the EVM (not just smart contract exploits).
+* [**Kalypso**](https://x.com/KalypsoProver)**:** Kalypso by Marlin is a circuit-agnostic ZK Proof Marketplace supporting private inputs, using Symbiotic restaking to provide liveness and response times guarantees for proof generation.
+* [**Drosera**](https://x.com/KalypsoProver)**:** Drosera is an automated risk management protocol for addressing any risk within the EVM (not just smart contract exploits).
 * [**Cycle Network**](https://x.com/cyclenetwork_GO) : Cycle Network offers bridgeless liquidity abstraction through verifiable state aggregation, supporting all Bitcoin and EVM blockchain ecosystems and secured by Symbiotic.
-* [\*\*Ditto](https://x.com/Ditto_Network):\*\* Ditto is building a trustless execution protocol to run event driven workflows on-chain with economic guarantees from restaking protocols.
+* [**Ditto**](https://x.com/Ditto_Network)**:** Ditto is building a trustless execution protocol to run event driven workflows on-chain with economic guarantees from restaking protocols.
 
 ### **6.2 Fuel Partners**
 
