@@ -368,12 +368,12 @@ Please feel free to reach out David, BD at Radius, via Telegram (@davidseo)
 
 ***
 
-## 9. More References
+## 9. Additional References
 
-* [https://docs.symbiotic.fi/](https://docs.symbiotic.fi/)
-* [https://mirror.xyz/0x957084A1F20AB33cfA0cE07ed57F50c05954999C/tTVKHPhlqYGmzou71\_7NrUvMkqT0bujMvQhW4vf4tVQ](https://mirror.xyz/0x957084A1F20AB33cfA0cE07ed57F50c05954999C/tTVKHPhlqYGmzou71_7NrUvMkqT0bujMvQhW4vf4tVQ)
-* [https://x.com/availproject/status/1887263843673354320?s=46](https://x.com/availproject/status/1887263843673354320?s=46)
-* [https://blog.availproject.org/avail-symbiotic-partner-to-create-a-unified-framework-for-innovation/?utm\_source=chatgpt.com](https://blog.availproject.org/avail-symbiotic-partner-to-create-a-unified-framework-for-innovation/?utm_source=chatgpt.com)
-* [https://blog.symbiotic.fi/network-highlight-radius-secure-block-building/](https://blog.symbiotic.fi/network-highlight-radius-secure-block-building/)
-* [https://blog.availproject.org/the-avail-vision-accelerating-the-unification-of-web3/](https://blog.availproject.org/the-avail-vision-accelerating-the-unification-of-web3/)
-* [https://x.com/Fuse\_network/status/1891888959808233841](https://x.com/Fuse_network/status/1891888959808233841)&#x20;
+* [Alpha Engine blog post](https://mirror.xyz/0x957084A1F20AB33cfA0cE07ed57F50c05954999C/tTVKHPhlqYGmzou71_7NrUvMkqT0bujMvQhW4vf4tVQ)
+* [Alpha Engine by Avail](https://x.com/availproject/status/1887263843673354320?s=46)
+* [Symbiotic Network Highlight: Radius Secure Block Building](https://blog.symbiotic.fi/network-highlight-radius-secure-block-building/)
+* [Symbiotic Docs](https://docs.symbiotic.fi/)
+* [Avail & Symbiotic Partner to Create a Unified Framework for Innovation](https://blog.availproject.org/avail-symbiotic-partner-to-create-a-unified-framework-for-innovation/?utm_source=chatgpt.com)
+* [Avail's Vision: The unification layer for web3](https://blog.availproject.org/the-avail-vision-accelerating-the-unification-of-web3/)
+* [Fuse Network](https://x.com/Fuse_network/status/1891888959808233841)
