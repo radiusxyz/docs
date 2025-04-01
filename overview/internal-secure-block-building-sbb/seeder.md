@@ -8,9 +8,9 @@ To become a tx. orderer, a node must first **register itself in the LivenessRadi
 
 After successful registration, the **tx. orderer receives the IP addresses of other peers in the cluster**, enabling seamless **internal communication** between nodes.
 
-<figure><img src="../../.gitbook/assets/image (6).png" alt=""><figcaption><p>Seeder - Tx. Orderer Interaction</p></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (6) (1).png" alt=""><figcaption><p>Seeder - Tx. Orderer Interaction</p></figcaption></figure>
 
-<figure><img src="../../.gitbook/assets/image (5).png" alt=""><figcaption><p>Seeder - Rollup Operator Interaction</p></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (5) (1).png" alt=""><figcaption><p>Seeder - Rollup Operator Interaction</p></figcaption></figure>
 
 ### **Seeder: Managing Tx. Orderer RPC URLs**
 

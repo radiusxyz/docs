@@ -6,7 +6,7 @@ Users are entities that submit transactions to the proposer, aiming to safeguard
 
 In the context of preventing malicious Miner Extractable Value (MEV) actions, users interact with the proposer through a sequence of steps designed to ensure transaction integrity and order. This process involves encryption techniques to protect transactions from being censored or reordered maliciously. Radius uses a cryptographic method called [Practical Verifiable Delay Encryption (PVDE)](https://ethresear.ch/t/mev-resistant-zk-rollups-with-practical-vde-pvde/12677), which relies on a time-lock puzzle to conceal transaction details until a predetermined time is reached.
 
-<figure><img src="../../.gitbook/assets/image (2) (1).png" alt=""><figcaption><p>User's actions before receiving order commitment</p></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (2) (1) (1).png" alt=""><figcaption><p>User's actions before receiving order commitment</p></figcaption></figure>
 
 ### **Receiving The Order Commitment**
 
@@ -55,11 +55,11 @@ Currently, transaction ordering is managed on a First Come First Serve (FCFS) ba
 
 For a clearer understanding, take a look at the sequence diagram below.
 
-<figure><img src="../../.gitbook/assets/image (5) (1).png" alt=""><figcaption><p>Proposer Actions</p></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (5) (1) (1).png" alt=""><figcaption><p>Proposer Actions</p></figcaption></figure>
 
 ### Order Verification
 
-<figure><img src="../../.gitbook/assets/image (4) (1).png" alt=""><figcaption><p>Order Verification with Order Commitment</p></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (4) (1) (1).png" alt=""><figcaption><p>Order Verification with Order Commitment</p></figcaption></figure>
 
 #### Purpose and Structure of the Order Commitment
 
@@ -90,5 +90,5 @@ Once the block is finalized, the user requests the final Merkle Proof with the l
 
 ### Complete Sequence Diagram
 
-<figure><img src="../../.gitbook/assets/image (1) (1) (1).png" alt=""><figcaption><p>Transaction Lifecycle</p></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (1) (1) (1) (1).png" alt=""><figcaption><p>Transaction Lifecycle</p></figcaption></figure>
 

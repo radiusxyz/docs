@@ -9,7 +9,7 @@ Clients have two ways to submit their transactions to the transaction orderer.
 
 ### Client ↔ Secure RPC ↔ Tx. Orderer
 
-<figure><img src="../../.gitbook/assets/image (12).png" alt=""><figcaption><p>via Secure RPC</p></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (12) (1).png" alt=""><figcaption><p>via Secure RPC</p></figcaption></figure>
 
 1. **Client** sends a raw transaction to Secure RPC.
 2. **Secure RPC** fetches SKDE parameters and the encryption key from the Distributed Key Generation (DKG) Service.
@@ -18,7 +18,7 @@ Clients have two ways to submit their transactions to the transaction orderer.
 
 ### Client ↔ Snap ↔ Tx. Orderer
 
-<figure><img src="../../.gitbook/assets/image (11).png" alt=""><figcaption><p>via radius-snap</p></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (11) (1).png" alt=""><figcaption><p>via radius-snap</p></figcaption></figure>
 
 1. **Client** generates or imports a private key.
 2. **Client** sends a raw transaction to the Snap.

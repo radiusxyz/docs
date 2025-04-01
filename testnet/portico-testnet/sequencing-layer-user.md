@@ -28,4 +28,4 @@ Currently, transaction ordering is managed on a First Come First Serve (FCFS) ba
 
 For a clearer understanding, take a look at the sequence diagram below.
 
-<figure><img src="../../.gitbook/assets/image (2) (1) (1).png" alt=""><figcaption><p><em>Sequencing layer - User interaction</em></p></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (2) (1) (1) (1).png" alt=""><figcaption><p><em>Sequencing layer - User interaction</em></p></figcaption></figure>

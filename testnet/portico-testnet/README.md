@@ -49,7 +49,7 @@ The transaction ordering process within the shared sequencing layer involves fou
 
 For sequencing liveness, the leader ensures that the majority of followers receive the order commitment (pre-confirmation) before it is sent to the user. For example, with a total of 10 followers, the leader ensures at least 6 followers receive the order commitment before sending it to the user.
 
-<figure><img src="../../.gitbook/assets/image (8) (1) (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (8) (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
 
 ### Potential Scenarios in the Shared Sequencer Network
 
@@ -130,7 +130,7 @@ To identify transactions for each rollup, the leader manages the following infor
 
 Explore a demonstration of Multi-Rollup Sequencing on Portico Testnet (closed). The shared sequencer submits blocks to two rollup operators in Rollup A and B, both deployed with the [Madara](https://www.madara.build/) rollup framework.&#x20;
 
-<figure><img src="../../.gitbook/assets/image (6) (1) (1).png" alt=""><figcaption><p><em>The latest block and block times for each rollup are displayed as transactions are sequenced.</em></p></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (6) (1) (1) (1).png" alt=""><figcaption><p><em>The latest block and block times for each rollup are displayed as transactions are sequenced.</em></p></figcaption></figure>
 
-<figure><img src="../../.gitbook/assets/image (7) (1) (1).png" alt=""><figcaption><p><em>Rollup block explorer</em></p></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (7) (1) (1) (1).png" alt=""><figcaption><p><em>Rollup block explorer</em></p></figcaption></figure>
 

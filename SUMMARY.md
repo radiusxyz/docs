@@ -45,6 +45,10 @@
   * [Secure RPC](overview/internal-secure-block-building-sbb/secure-rpc.md)
   * [Client (User)](overview/internal-secure-block-building-sbb/client-user.md)
 
+## Alpha Engine
+
+* [Alpha Engine by Radius, Symbiotic, Avail](alpha-engine/alpha-engine-by-radius-symbiotic-avail.md)
+
 ## Testnet
 
 * [Loggia Testnet with Radius AVS](testnet/loggia-testnet-with-radius-avs/README.md)

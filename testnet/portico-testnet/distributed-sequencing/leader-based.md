@@ -22,4 +22,4 @@ The leader distributes the data to the followers to maintain a synchronized and 
 
 * [requesting followers to sync](../code-references.md#request-from-followers-to-sync)
 
-<figure><img src="../../../.gitbook/assets/image (5) (1) (1).png" alt=""><figcaption><p>Follower ↔ Leader communication</p></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (5) (1) (1) (1).png" alt=""><figcaption><p>Follower ↔ Leader communication</p></figcaption></figure>

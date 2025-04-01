@@ -66,7 +66,7 @@ Though currently a minimal or “unsupported” flow in the provided code, the c
 
 ### Usage Scenario
 
-<figure><img src="../../.gitbook/assets/image (8).png" alt=""><figcaption><p>Secure RPC data flow</p></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (8) (1).png" alt=""><figcaption><p>Secure RPC data flow</p></figcaption></figure>
 
 1. **Client** needs to submit a transaction to a tx. orderer, but data is sensitive.
 2. **AppState / Config** indicates encryption is enabled with SKDE.

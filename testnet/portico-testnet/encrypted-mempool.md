@@ -10,7 +10,7 @@ Users are entities that submit transactions to the rollup, aiming to safeguard t
 
 In the context of preventing malicious Miner Extractable Value (MEV) actions, users interact with the shared sequencing layer through a sequence of steps designed to ensure transaction integrity and order. This process involves encryption techniques to protect transactions from being censored or reordered maliciously. Radius uses a cryptographic method called [Practical Verifiable Delay Encryption (PVDE)](https://ethresear.ch/t/mev-resistant-zk-rollups-with-practical-vde-pvde/12677), which relies on a time-lock puzzle to conceal transaction details until a predetermined time is reached.
 
-<figure><img src="../../.gitbook/assets/image (13) (1).png" alt=""><figcaption><p><em>User specific actions</em></p></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (13) (1) (1).png" alt=""><figcaption><p><em>User specific actions</em></p></figcaption></figure>
 
 ### **Process Overview**
 

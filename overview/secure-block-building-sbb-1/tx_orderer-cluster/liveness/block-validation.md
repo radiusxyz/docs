@@ -4,7 +4,7 @@
 
 Since each follower is synchronized with leader's encrypted transactions and respective order commitments, this enables them to build the block similarly to the leader. The following steps outline the block commitment verification _process_:
 
-<figure><img src="../../../../.gitbook/assets/image (15).png" alt=""><figcaption><p>Block Validation Flow</p></figcaption></figure>
+<figure><img src="../../../../.gitbook/assets/image (15) (1).png" alt=""><figcaption><p>Block Validation Flow</p></figcaption></figure>
 
 1. **Initiating the Build**:
    * Upon receiving the build block request, the leader initiates the build function.

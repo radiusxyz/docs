@@ -20,7 +20,7 @@ The **Secure Block Builder (SBB)** is Radius's solution for ensuring **liveness 
   * **Tx. orderers obtain a decryption key** to process and execute transactions securely.
 *   **Liveness Service Manager Contract (`LivenessServiceManager.sol`)**
 
-    <figure><img src="../../.gitbook/assets/image (7).png" alt=""><figcaption><p>Relationship between LivenessServiceManager related entities</p></figcaption></figure>
+    <figure><img src="../../.gitbook/assets/image (7) (1).png" alt=""><figcaption><p>Relationship between LivenessServiceManager related entities</p></figcaption></figure>
 
     * The **LivenessServiceManager contract** ensures **tx. orderer availability**. It helps rollups and tx. orderer sets **determine the leader tx. orderer**, allowing for **block creation and transaction ordering**. Within the above structure, a **cluster** consists of both a **tx. orderer set** and a **rollup set.** The **tx. orderer set** manages all registered rollups within the cluster. Each **rollup stores the addresses of executors**, responsible for its operation, and is registered with specific enabled features provided by Radius.
       * **Additional Rollup Configurations:**

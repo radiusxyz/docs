@@ -29,7 +29,7 @@ Since each follower proposer is synchronized with leader proposer's encrypted tr
 
 This process ensures that block commitments are accurately validated.
 
-<figure><img src="../../../../.gitbook/assets/image (7) (1).png" alt=""><figcaption><p>Block Validation</p></figcaption></figure>
+<figure><img src="../../../../.gitbook/assets/image (7) (1) (1).png" alt=""><figcaption><p>Block Validation</p></figcaption></figure>
 
 **Validation Scenarios**
 
