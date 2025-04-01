@@ -47,6 +47,7 @@
 
 ## Alpha Engine
 
+* [Introduction](alpha-engine/introduction.md)
 * [Alpha Engine by Radius, Symbiotic, Avail](alpha-engine/alpha-engine-by-radius-symbiotic-avail.md)
 
 ## Testnet

@@ -1,31 +1,5 @@
 # Alpha Engine by Radius, Symbiotic, Avail
 
-### **The Problem**
-
-Deploying a rollup isn’t enough—scaling sustainably is hard. Challenges include unstable revenue, high security costs, fragmented networks, liquidity struggles, and complex onboarding.
-
-### **The Solution: Alpha Engine**
-
-Alpha Engine provides a modular infrastructure stack with three core components:
-
-* **Radius**: MEV capture for revenue.
-* **Symbiotic**: Shared security protocol.
-* **Avail**: Scalable data availability & cross-rollup interoperability.
-
-### **Why It Matters to Rollup**
-
-* **Earn sustainable revenue** beyond transaction fees.
-* **Reduce security costs** with shared staking models.
-* **Enable seamless cross-rollup interactions** via Avail Nexus.
-
-### **Nitro Program**
-
-Rollups integrating Alpha Engine’s components qualify for **tiered incentives** to boost TVL and adoption. Full-stack adopters receive the highest rewards.
-
-Alpha Engine transforms rollups from just functional to **economically sustainable, secure, and interconnected.**
-
-***
-
 ## **1. Introduction**
 
 #### **1.1 The Challenge of Sustainable Rollup Growth**
@@ -69,7 +43,7 @@ Radius enables **rollups to capture MEV revenue** with Secure Block Building(SBB
 
 #### 2.1.1 [Lighthouse](../overview/lighthouse.md): Cross-rollup MEV capture
 
-<figure><img src="../.gitbook/assets/image (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (1) (1).png" alt=""><figcaption></figcaption></figure>
 
 [Lighthouse](../overview/lighthouse.md) is a decentralized network that runs auctions to monetize rollup blockspace during block production. Rollups offer blockspace, and searchers bid to include MEV transactions—such as arbitrage and liquidations—that enhance market efficiency.
 
@@ -83,7 +57,7 @@ _Lighthouse seamlessly connects to rollups via Secure Block Building (SBB). Once
 
 #### **2.1.2** [**Secure Block Building (SBB)**](../overview/secure-block-building-sbb.md)**: User-safe MEV Capture**
 
-<figure><img src="../.gitbook/assets/image.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (1).png" alt=""><figcaption></figcaption></figure>
 
 [Secure Block Building (SBB)](../overview/secure-block-building-sbb.md) enhances L2 block building to capture MEV, collaborating with searchers to increase revenue.
 
@@ -340,3 +314,66 @@ The data flow in Silicon’s L2 network mirrors the standardized process used by
 Symbiotic points are transferred to the Network, not directly to Rollups. In this context, they are sent to Radius, which then forwards both its own points and Symbiotic points to fuse.
 
 <figure><img src="../.gitbook/assets/image (16).png" alt=""><figcaption></figcaption></figure>
+
+***
+
+## 6. Symbioitic Networks and Fuel Partners
+
+### **6.1 Symbiotic Networks**
+
+<figure><img src="../.gitbook/assets/image.png" alt=""><figcaption></figcaption></figure>
+
+Networks are the systems that need economic security to operate safely. These can be Layer 1 blockchains, Layer 2 solutions, or other decentralized systems that require stake-based security guarantees.
+
+Symbiotic supports diverse networks serving as essential building blocks for shared security. The Alpha Engine ecosystem is secured by Symbiotic’s infrastructure providers, which enhance rollup growth:
+
+* [**RedStone**](https://x.com/redstone_defi): RedStone is the fastest-growing oracle in 2024, specialising in yield-bearing collateral for lending markets. Its Total Value Secured (TVS) grew from below $1bn in January to $6bn+ now.
+* [**Hyve DA**](https://x.com/Hyve_DA): Hyve is the first Data Availability (DA) solution designed to power any data-intensive Layer 2s, rollups, appchains, and even Layer 1s. Fully chain- and token-agnostic, HyveDA seamlessly supports any blockchain, regardless of its settlement layer, virtual machine, or native token.
+* [**Capx Cloud**](https://x.com/0xCapx) : Capx Cloud is a Symbiotic network that enables decentralized AI agent deployment, crypto-economically secured through Symbiotic protocol
+* [\*\*Kalypso](https://x.com/KalypsoProver):\*\* Kalypso by Marlin is a circuit-agnostic ZK Proof Marketplace supporting private inputs, using Symbiotic restaking to provide liveness and response times guarantees for proof generation.
+* [\*\*Drosera](https://x.com/KalypsoProver):\*\* Drosera is an automated risk management protocol for addressing any risk within the EVM (not just smart contract exploits).
+* [**Cycle Network**](https://x.com/cyclenetwork_GO) : Cycle Network offers bridgeless liquidity abstraction through verifiable state aggregation, supporting all Bitcoin and EVM blockchain ecosystems and secured by Symbiotic.
+* [\*\*Ditto](https://x.com/Ditto_Network):\*\* Ditto is building a trustless execution protocol to run event driven workflows on-chain with economic guarantees from restaking protocols.
+
+### **6.2 Fuel Partners**
+
+Fuel partners are integral to the Alpha Engine, providing specialized infrastructure that further enhances rollup growth capabilities. Rollups can tap into these partners to strengthen key aspects of their ecosystem:
+
+* **Swell:** Focused on security.
+* **Nucleus:** Offers yield generation and liquidity solutions.
+* **Ternoa IVS:** Delivers trust-minimization mechanisms.
+* **Fuse:** Provides SDKs and APIs for consumer applications.
+* **More:** Additional partners expanding the ecosystem's potential.
+
+***
+
+## 7. Conclusion
+
+Deploying a rollup is just the first step toward building a sustainable blockchain ecosystem. Long-term success requires addressing fundamental challenges such as revenue instability, high security costs, network fragmentation, liquidity constraints, user onboarding friction, and infrastructure complexity.
+
+By leveraging innovative solutions, rollups can overcome these barriers and create a more resilient and interconnected ecosystem:
+
+* **Revenue Stability:** Mechanisms like backrunning from SBB and Lighthouse introduce additional revenue streams beyond volatile transaction fees.
+* **Enhanced Security:** Symbiotic Shared Security enables capital-efficient protection, reducing the burden on individual rollups.
+* **Interoperability & Connectivity:** Avail’s Unification Layer via Nexus and modular DA layers facilitate seamless cross-rollup communication.
+* **Liquidity Efficiency:** Nucleus enhances liquidity access and yield opportunities, while Avail ensures liquidity mobility across networks.
+* **Seamless User Onboarding:** Connected rollups improve user experience by abstracting complexity and simplifying interactions.
+* **Optimized Infrastructure:** Alpha Engine integrates best-in-class solutions—including Avail, Radius, Symbiotic, Redstone, and others—to provide scalable, cost-effective, and modular infrastructure.
+
+***
+
+## 8. Get Started
+
+Please feel free to reach out David, BD at Radius, via Telegram (@davidseo)
+
+***
+
+## 9. More References
+
+* [https://docs.symbiotic.fi/](https://docs.symbiotic.fi/)
+* [https://mirror.xyz/0x957084A1F20AB33cfA0cE07ed57F50c05954999C/tTVKHPhlqYGmzou71\_7NrUvMkqT0bujMvQhW4vf4tVQ](https://mirror.xyz/0x957084A1F20AB33cfA0cE07ed57F50c05954999C/tTVKHPhlqYGmzou71_7NrUvMkqT0bujMvQhW4vf4tVQ)
+* [https://x.com/availproject/status/1887263843673354320?s=46](https://x.com/availproject/status/1887263843673354320?s=46)
+* [https://blog.availproject.org/avail-symbiotic-partner-to-create-a-unified-framework-for-innovation/?utm\_source=chatgpt.com](https://blog.availproject.org/avail-symbiotic-partner-to-create-a-unified-framework-for-innovation/?utm_source=chatgpt.com)
+* [https://blog.symbiotic.fi/network-highlight-radius-secure-block-building/](https://blog.symbiotic.fi/network-highlight-radius-secure-block-building/)
+* [https://blog.availproject.org/the-avail-vision-accelerating-the-unification-of-web3/](https://blog.availproject.org/the-avail-vision-accelerating-the-unification-of-web3/)
+* [https://x.com/Fuse\_network/status/1891888959808233841](https://x.com/Fuse_network/status/1891888959808233841)&#x20;
