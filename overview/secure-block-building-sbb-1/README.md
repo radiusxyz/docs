@@ -1,3 +1,7 @@
+---
+hidden: true
+---
+
 # Secure Block Building (SBB)
 
 The **Secure Block Builder (SBB)** by Radius is designed to **ensure liveness for rollups** while leveraging the **security of restaking protocols**. It consists of several key components that work together to maintain network integrity and secure transaction processing.

@@ -215,7 +215,7 @@ echo "Expected output: true"
 
 ### **3. Running Tx\_Orderer**
 
-Repository: Tx\_Orderer GitHub
+Repository: [Tx\_Orderer GitHub](https://github.com/radiusxyz/tx_orderer)
 
 _**Note**:_ A cluster is a group of tx\_orderers with a leader. This process can run with a single tx\_orderer as well. Do not be confused by the `.env` variables referencing clusters.
 

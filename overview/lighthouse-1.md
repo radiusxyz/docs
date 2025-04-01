@@ -1,8 +1,9 @@
 ---
 description: Key Requirements, Architecture, Specifications, and Security
+hidden: true
 ---
 
-# Lighthouse Network
+# Lighthouse
 
 ### 1. Key Requirements
 

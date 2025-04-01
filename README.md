@@ -1,103 +1,54 @@
-# Overview: Lighthouse and SBB
+---
+description: 'Learn about Secure Block Building (SBB) and Lighthouse: Tools for L2 Revenue'
+---
 
-### Lighthouse and Secure Block Building (SBB)
+# Introduction
 
-Radius builds economic infrastructure that enables rollups to capture MEV revenue while protecting users. Our solutions include:
-
-* **Lighthouse**: A decentralized network that connects rollups with searchers to capture MEV opportunities for sustainable revenue generation.
-* **Secure Block Building (SBB**): A built-in component for rollups that minimizes harmful MEV and secures user transactions through cryptographic techniques.
-
-<figure><img src=".gitbook/assets/image (24) (1).png" alt=""><figcaption></figcaption></figure>
+Radius presents a new approach to reshape the rollup economic landscape by unlocking MEV as a revenue source. While rollups are critical for Ethereum's growth, their reliance on user fees introduces economic uncertainty. These fees fluctuate with network demand, leading to unpredictable revenue and constrained growth.
 
 ***
 
-### Lighthouse: MEV-Powered Revenue Engine
+### What We Do
 
-**Secure Block Building (SBB)** is a protection module for protecting users from harmful MEV, like frontrunning and sandwich attacks, which can happen during MEV internalization. By using zero-knowledge (ZK) proofs and encrypted mempools, SBB encrypts user transactions without disrupting the user experience. It enables rollups to capture MEV profitably while keeping users protected from economic threats.
-
-SBB runs entirely in the user's browser, so there's no need to install additional apps or extensions. Thanks to recent optimizations, encryption and proof generation now take just one second, making the process almost instant.
-
-Lighthouse is a decentralized network that connects rollups with searchers to capture MEV during block production. Instead of relying on harmful MEV practices like censorship and reordering, Lighthouse enables rollups to harness MEV strategies that improve market efficiency, such as arbitrage and liquidations.
-
-**How It Works:**&#x20;
-
-1. **Searchers** identify MEV opportunities in rollups and create MEV bundles.
-2. **Bundles** are submitted to Lighthouse, where searchers compete by bidding for inclusion.
-3. **Rollups** execute winning bundles and earn fees, creating a sustainable revenue stream beyond transaction fees.
-
-**Lighthouse supports diverse MEV strategies including:**
-
-* CEX-DEX arbitrage
-* Atomic arbitrage
-* Liquidations
-* Cross-rollup arbitrage
-* Ethereum-rollup arbitrage
-
-Lighthouse continuously evolves to support new MEV strategies, ensuring consistent and scalable revenue for rollups.
+Radius addresses this challenge through two solutions: **Secure Block Building (SBB)** and **Lighthouse**. These tools enable rollups to access MEV that would otherwise be unavailable to them. SBB enhances L2 block building through searcher collaboration to capture MEV, while Lighthouse creates a network for rollups to share MEV opportunities across platforms. Together, they provide stable, scalable revenue for rollups—establishing the foundation for a unified and economically aligned Ethereum ecosystem.
 
 
 
-### Advanced Features
+**Secure Block Building (SBB)**
 
-**Cross-Rollup MEV**
+A powerful tool that enhances L2 block building to capture MEV through efficient searcher collaboration, increasing revenue generation
 
-Our partnership with [Avail](https://www.availproject.org/) enables synchronous atomic transactions across rollups, maximizing value capture from cross-rollup opportunities.
+→ [SBB Overview](overview/secure-block-building-sbb-1/)
 
-* Demo Video: [https://x.com/radius\_xyz/status/1809120933631963165](https://x.com/radius_xyz/status/1809120933631963165)
-* Technical Details: [https://ethresear.ch/t/cross-rollup-synchronous-atomic-execution/20193](https://ethresear.ch/t/cross-rollup-synchronous-atomic-execution/20193)
 
-{% embed url="https://ethresear.ch/t/cross-rollup-synchronous-atomic-execution/20193" %}
 
-**Based Sequencing**
+**Lighthouse**
 
-Based Sequencing bridges Ethereum liquidity with rollups, unlocking new MEV opportunities and increasing rollup revenue.
+A decentralized network that connects multiple rollups, enabling them to capture cross-rollup MEV and expand their revenue opportunities
 
-{% embed url="https://ethresear.ch/t/derivatives-market-for-implementing-based-sequencing/19593" %}
+→ [Lighthouse Overview](overview/lighthouse.md)
 
 ***
 
-### Secure Block Building (SBB): Built-In User Protection
+### Understanding MEV
 
-Secure Block Building is a cryptographic primitive designed to protect users from harmful MEV attacks such as frontrunning and reordering while capturing MEV. SBB is an individual component that Radius customizes and integrates for each rollup.
+Maximal Extractable Value (MEV) is the profit rollups can earn by strategically ordering transactions during block production: a potential that most Layer 2s currently cannot access.&#x20;
 
-**Key** **Features**
+MEV takes several forms:
 
-* **Encrypted Transactions**: User transactions are encrypted directly in the user’s browser, requiring no additional installations or software.
-* **Minimal Latency**: Optimized cryptographic techniques reduce encryption and proof generation to under one second.
+* **Beneficial MEV**:
+  * **Arbitrage**: Captures price differences across markets (e.g., CEX-DEX, cross-rollup, L1-L2, atomic) to align prices and improve market efficiency
+  * **Liquidations**: Closes undercollateralized positions to maintain protocol stability
+* **Harmful MEV**:
+  * **Frontrunning**: Profits by executing ahead of user transactions, increasing user costs through slippage
+  * **Sandwich Attacks**: Manipulates prices around a user's trade for profit, resulting in higher costs for the user
 
-**Encryption Technologies**
-
-**Practical Verifiable Delay Encryption (PVDE)**: This zero-knowledge (ZK) algorithm, developed by Radius, eliminates the need for external trust in key generation. PVDE allows rollups to create proofs for complex cryptographic operations and timelock puzzles in just one second, ensuring fast and secure performance.
-
-**Practical Verifiable Delay Encryption (PVDE)**: A ZK-based encryption algorithm developed by Radius, PVDE eliminates external trust in key generation. It generates proofs for cryptographic operations and timelock puzzles in under one second.
-
-{% embed url="https://ethresear.ch/t/mev-resistant-zk-rollups-with-practical-vde-pvde/12677" %}
-
-**Single Key Delay Encryption (SKDE)**: SKDE optimizes tx\_orderer efficiency by using a unified encryption key per block, preserving MEV protection while maintaining rollup composability and performance.
-
-{% embed url="https://ethresear.ch/t/radius-skde-enhancing-rollup-composability-with-trustless-sequencing/19185" %}
-
-By connecting Ethereum liquidity to rollups, Radius enables searchers to discover new arbitrage opportunities, ultimately boosting rollup revenue.
-
-**Slashing Mechanisms**&#x20;
-
-SBB includes a slashing mechanism that prevents a single tx\_orderer from reordering transactions. This is enforced via:
-
-* Native rollup security
-* Shared security protocols like [EigenLayer](https://www.eigenlayer.xyz/) or [Symbiotic](https://symbiotic.fi/).
-
-
-
-See Curie Testnet (SBB): [https://x.com/radius\_xyz/status/1724082176818573399](https://x.com/radius_xyz/status/1724082176818573399)
+SBB and Lighthouse focus on capturing user-safe MEV (arbitrage and liquidations) through backrunning—placing searcher transactions right after profitable opportunities without affecting users. This approach eliminates harmful practices like frontrunning and sandwich attacks, boosting rollup revenue while creating a fairer, more efficient Ethereum ecosystem.
 
 ***
 
 ### Getting Started
 
-Ready to integrate Lighthouse or Secure Block Building? Here’s how you can get started:
-
 * **Explore**: [GitHub](https://github.com/radiusxyz)
 * **Contact Us**: [Contact Form](https://www.theradius.xyz/contact)
-
-
 
