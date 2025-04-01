@@ -70,8 +70,6 @@
   * [Encrypted Mempool](testnet/curie-testnet/encrypted-mempool.md)
   * [Testnet Guide](testnet/curie-testnet/testnet-guide.md)
 
-## DEVELOPER
-
 ## LINK
 
 * [THERADIUS.XYZ](https://www.theradius.xyz)
