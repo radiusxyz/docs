@@ -18,7 +18,7 @@ Radius addresses this challenge through two solutions: **Secure Block Building (
 
 A powerful tool that enhances L2 block building to capture MEV through efficient searcher collaboration, increasing revenue generation
 
-→ [SBB Overview](overview/secure-block-building-sbb-1/)
+→ [SBB Overview](overview/secure-block-building-sbb.md)
 
 
 

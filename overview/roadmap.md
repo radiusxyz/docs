@@ -2,7 +2,7 @@
 
 ### Our Journey
 
-With Secure Block Building (SBB) and Lighthouse, we're shaping a rollup economy that delivers user-safe MEV revenue, connects rollups, and maximizes value across Ethereum's ecosystem.
+With [Secure Block Building (SBB)](secure-block-building-sbb.md) and [Lighthouse](lighthouse.md), we're shaping a rollup economy that delivers user-safe MEV revenue, connects rollups, and maximizes value across Ethereum's ecosystem.
 
 This roadmap outlines our path: we begin with SBB for individual rollups, scale to cross-rollup MEV with Lighthouse in 2025, and bridge L1-L2 opportunities by 2026—all to achieve economic unity across Ethereum.
 
