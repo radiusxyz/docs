@@ -1,5 +1,11 @@
 # Secure Block Building (SBB)
 
+{% hint style="info" %}
+This page provides a conceptual overview of Secure Block Building (SBB). We’re working on providing a detailed technical overview of Secure Block Building (SBB) to help you understand its architecture and implementation. In the meantime, explore how SBB drives rollup revenue growth by capturing user-safe MEV, or reach out to our team for early insights on how SBB can benefit your rollup. [Contact us](https://www.theradius.xyz/contact).
+
+***
+{% endhint %}
+
 ### Introducing Secure Block Building
 
 Secure Block Building (SBB) enables rollups to capture MEV as a new revenue source.
