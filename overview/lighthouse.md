@@ -1,7 +1,7 @@
 # Lighthouse
 
 {% hint style="info" %}
-This page provides a conceptual overview of Lighthouse. We’re preparing a detailed technical overview of Lighthouse to help you understand its architecture and cross-rollup coordination capabilities. In the meantime, discover how Lighthouse accelerates rollup revenue growth and fosters economic unity across Ethereum, or connect with our team to learn more about integrating with Lighthouse. [Contact us](https://www.theradius.xyz/contact).
+We’re preparing a detailed technical overview of Lighthouse to help you understand its architecture and cross-rollup coordination capabilities. In the meantime, discover how Lighthouse accelerates rollup revenue growth and fosters economic unity across Ethereum, or connect with our team to learn more about integrating with Lighthouse. [Contact us](https://www.theradius.xyz/contact).
 {% endhint %}
 
 ### Introducing Lighthouse
