@@ -8,9 +8,9 @@ We’re working on providing a detailed technical overview of Secure Block Build
 
 ### Introducing Secure Block Building
 
-Secure Block Building (SBB) enables rollups to capture MEV as a new revenue source.
+Secure Block Building (SBB) unlocks MEV as a new revenue source for rollups through a fast, secure, and fair framework. By collaborating with searchers, SBB integrates their expertise and strategies into the rollup’s block building process, capturing MEV to boost rollup revenue while supporting growth across the ecosystem.
 
-SBB enhances Layer 2 block building by providing a fast, secure, and fair method for rollups to access previously untapped MEV. This increases rollup profitability while supporting the growth of the ecosystem. SBB is the foundation for [Lighthouse](lighthouse.md), a broader vision that maximizes revenue potential by extending MEV capture across multiple domains - including rollups, Layer 1, and centralized exchanges.
+SBB lays the foundation for [Lighthouse](https://www.notion.so/1b90727039a680f2a981d28164eeb944?pvs=21), a broader vision that maximizes revenue potential by extending MEV capture across multiple networks and domains - including rollups, Layer 1, and centralized exchanges.
 
 ***
 
