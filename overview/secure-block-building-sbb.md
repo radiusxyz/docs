@@ -26,7 +26,7 @@ SBB provides three key benefits:
 
 ### How It Works
 
-SBB integrates into rollups as a plug-in for MEV capture, with two main features:
+SBB integrates into rollups as a plug-in with two main features:
 
 * **Arbitrage Support**: Searchers spot arbitrage opportunities and submit bundles to SBB blockspace. This also includes CEX-DEX trades and liquidations, which generate additional revenue for the rollup.
 * **Encrypted Mempool**: User transactions are encrypted and sent to SBB user blockspace, This protects them from manipulation while ensuring inclusion through preconfirmations.
