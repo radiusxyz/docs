@@ -34,9 +34,7 @@ A decentralized network that maximizes MEV revenue opportunities by connecting m
 
 ### Understanding MEV
 
-Maximal Extractable Value (MEV) is the profit rollups can earn by strategically ordering transactions during block production: a potential that most Layer 2s currently cannot access.&#x20;
-
-MEV takes several forms:
+Traditionally, MEV, or Maximal Extractable Value, refers to profits that block producers gain by reordering, including, or excluding transactions in a block. In practice, MEV spans a spectrum from beneficial activities that enhance market stability to harmful practices that negatively affect users:
 
 * **Beneficial MEV**:
   * **Arbitrage**: Captures price differences across markets (e.g., CEX-DEX, cross-rollup, L1-L2, atomic) to align prices and improve market efficiency
@@ -45,7 +43,7 @@ MEV takes several forms:
   * **Frontrunning**: Profits by executing ahead of user transactions, increasing user costs through slippage
   * **Sandwich Attacks**: Manipulates prices around a user's trade for profit, resulting in higher costs for the user
 
-SBB and Lighthouse focus on capturing user-safe MEV (arbitrage and liquidations) through backrunning—placing searcher transactions right after profitable opportunities without affecting users. This approach eliminates harmful practices like frontrunning and sandwich attacks, boosting rollup revenue while creating a fairer, more efficient Ethereum ecosystem.
+**SBB** and **Lighthouse** capture only beneficial MEV through the strategic placement of arbitrage transactions into L2 blocks without impacting users. In doing so, they scale rollup revenue and promote a fairer, more efficient Ethereum ecosystem.
 
 ***
 
