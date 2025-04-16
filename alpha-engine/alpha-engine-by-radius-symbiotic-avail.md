@@ -57,7 +57,7 @@ _Lighthouse seamlessly connects to rollups via Secure Block Building (SBB). Once
 
 #### **2.1.2** [**Secure Block Building (SBB)**](../overview/secure-block-building-sbb.md)**: User-safe MEV Capture**
 
-<figure><img src="../.gitbook/assets/image (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (44).png" alt=""><figcaption></figcaption></figure>
 
 [Secure Block Building (SBB)](../overview/secure-block-building-sbb.md) enhances L2 block building to capture MEV, collaborating with searchers to increase revenue.
 
