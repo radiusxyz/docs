@@ -364,7 +364,7 @@ By leveraging innovative solutions, rollups can overcome these barriers and crea
 
 ## 8. Get Started
 
-Please feel free to reach out David, BD at Radius, via Telegram (@davidseo)
+Please feel free to reach out David, BD at Radius, via Telegram (@realsunny16)
 
 ***
 
