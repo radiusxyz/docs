@@ -6,8 +6,8 @@ This guide will walk you through the process of interacting with Curie Testnet.
 
 To get started, make sure you have MetaMask installed, added the Polygon Mumbai Network, and test tokens in your wallet.
 
-1. **Install MetaMask:** Install the [MetaMask](https://metamask.io/) wallet extension in your browser.
-2. **Add Network:** For this tesnet, we use Polygon Mumbai Network.
+1. **Install MetaMask:** Install the [MetaMask](https://MetaMask.io/) wallet extension in your browser.
+2. **Add Network:** For this testnet, we use Polygon Mumbai Network.
    1. In MetaMask, click on the network selection icon in the upper left corner and choose `Add network`.
    2. Select `Add a network manually`.
    3. Enter the following fields and click `Save`.
@@ -23,7 +23,7 @@ To get started, make sure you have MetaMask installed, added the Polygon Mumbai 
 
 ### Request **and Add Testnet Tokens**
 
-1. **Requesting Testnet Tokens**: To request testnet tokens, submit your Metamask wallet address using this [form](https://7r9olam1w6v.typeform.com/to/k3fkrwY6). We will send you a set of test tokens: CI and DIA.
+1. **Requesting Testnet Tokens**: To request testnet tokens, submit your MetaMask wallet address using this [form](https://7r9olam1w6v.typeform.com/to/k3fkrwY6). We will send you a set of test tokens: CI and DIA.
 2.  **Adding CI and DIA Test Tokens to MetaMask:** On MetaMask, click `+ Import Tokens`.
 
 
