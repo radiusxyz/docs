@@ -32,41 +32,6 @@ A decentralized network that maximizes MEV revenue opportunities by connecting m
 
 ***
 
-### Understanding MEV
-
-**Maximal Extractable Value (MEV)** is the profit that can be made (usually by a block builder or validator) by reordering, including, or excluding transactions. MEV strategies generally fall into two broad categories based on their impact:
-
-
-
-**Good MEV**
-
-*   **Arbitrage**: Capturing price differences across markets. For example, between AMM pools on the same rollup, or across multiple L2s, or between L2s and L1.
-
-    _Why it’s beneficial_: Arbitrage helps align prices across the ecosystem, reduces inefficiencies, and stabilizes market for traders.
-*   **Liquidations**: Closing out of undercollateralized positions in lending protocols, often triggered by price changes or accrued interest.
-
-    _Why it’s beneficial_: Liquidations protect lenders and keep protocols solvent, while offering incentives to actors who help enforce risk thresholds.
-
-
-
-**Bad MEV**
-
-*   **Frontrunning**: Placing a transaction ahead of known trade to profit from its price impact.
-
-    _Why it’s harmful_: It increases slippage for users and creates an uneven playing field by exploiting the visibility of a transaction.
-*   **Sandwich Attacks**: Placing a trade before and after a user’s transaction to profit.
-
-    _Why it’s harmful_: Sandwiching extracts value directly from users by distorting market prices around their trades.
-
-
-
-As L2 ecosystems grow, **managing MEV** and **designing aligned incentives** will be critical to keeping the economy healthy. That means:
-
-* Encouraging good MEV like arbitrage and liquidations
-* Preventing harmful MEV like frontrunning or sandwiching
-
-***
-
 ### Getting Started
 
 * **Explore**: [GitHub](https://github.com/radiusxyz)

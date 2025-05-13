@@ -3,6 +3,7 @@
 ## Overview
 
 * [Introduction](README.md)
+* [Understanding MEV](overview/understanding-mev.md)
 * [Secure Block Building (SBB)](overview/secure-block-building-sbb.md)
 * [Lighthouse](overview/lighthouse.md)
 * [Roadmap](overview/roadmap.md)
