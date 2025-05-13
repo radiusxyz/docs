@@ -6,7 +6,7 @@ Rollups are critical for Ethereum’s scalability but rely on volatile transacti
 
 ### What We Do
 
-**Secure Block Building (SBB)** and **Lighthouse** enable L2s to generate revenue from MEV while preventing user-harming practices, such as frontrunning. They optimize MEV strategies to deliver consistent income for L2s, supporting scalable and fair networks. For details on backrunning and MEV, see Understanding MEV.
+Secure Block Building (SBB) and Lighthouse enable L2s to generate revenue from MEV while preventing user-harming practices, such as frontrunning. They optimize MEV strategies to deliver consistent income for L2s, supporting scalable and fair networks. For details on backrunning and MEV, see [Understanding MEV](overview/understanding-mev.md).
 
 
 
