@@ -371,7 +371,7 @@ impl BlockMetadata {
         // 3. returns the tx order
     }
 
-    pub fn set_decypted_tx(&mut self, tx_order: &TxOrder) {
+    pub fn set_decrypted_tx(&mut self, tx_order: &TxOrder) {
        // sets the tx of order tx_order as decrypted
     }
 
