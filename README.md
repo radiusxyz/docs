@@ -1,33 +1,43 @@
-# Introduction
+# About Radius
 
-Rollups are critical for Ethereum’s scalability but rely on volatile transaction fees, creating economic uncertainty. Radius addresses this by leveraging MEV to stabilize revenue and support Layer 2 (L2) growth.
+### Introduction <a href="#why-radius" id="why-radius"></a>
+
+Ethereum powers DeFi and global onchain markets, yet much of its value today flows through **opaque mechanisms** and remains trapped in **fragmented silos**. This reduces trust, limits network effects, and slows ecosystem-wide growth.
+
+Radius builds the **economic trust layer for Ethereum**: infrastructure that makes **value flows transparent, markets unified, and incentives aligned**, enabling rollups, searchers, and L1/L2 infrastructure to build on markets that scale collectively, not in isolation.\
+
 
 ***
 
-### What We Do
+### Why Radius <a href="#why-radius" id="why-radius"></a>
 
-Secure Block Building (SBB) and Lighthouse enable L2s to generate revenue from MEV while preventing user-harming practices, such as frontrunning. They optimize MEV strategies to deliver consistent income for L2s, supporting scalable and fair networks. For details on backrunning and MEV, see [Understanding MEV](overview/understanding-mev.md).
+* **Universal Transparency:** All value flows from revenue generation to distribution, are visible.
+* **Unified Markets:** Fragmented L1/L2/CEX/DEX activity is coordinated into a single system.
+* **Aligned Incentives:** Growth for one participant multiplies growth across the ecosystem.
+* **Future-Ready:** Transparent frameworks prepare rollups and protocols for institutional adoption and regulatory clarity.
 
+***
 
+### Products
 
-**Secure Block Building (SBB)**
+Radius offers two products designed to bring transparency and unified Ethereum markets:
 
-SBB integrates with L2s to generate MEV revenue through backrunning collaborating with searchers, without impacting user transactions.
+**Secure Block Building (SBB)**: Transparent, open markets
 
-→ [SBB Overview](overview/secure-block-building-sbb.md)
+* Provides rollups with top-of-block backrunning slots for arbitrage strategies across CEX and DEX markets.
+* Uses open auctions where searchers compete, creating new revenue for rollups.
+* Embeds mechanisms that reduce exploitative tactics like frontrunning and censorship.
 
+**Lighthouse:** Efficient cross-market auctions
 
-
-**Lighthouse**
-
-Lighthouse is a decentralized network that connects L2s and searchers to generate MEV revenue through backrunning strategies across the Ethereum ecosystem, including L2s, L1, and centralized exchanges, for enhnaced revenue.&#x20;
-
-→ [Lighthouse Overview](overview/lighthouse.md)
+* Runs unified auctions across CEX, DEX, and L1/L2 for arbitrage execution.
+* Improves price discovery and unlocks liquidity by connecting fragmented venues.
+* Creates shared market efficiency and revenue opportunities for participants.
 
 ***
 
 ### Getting Started
 
 * **Explore**: [GitHub](https://github.com/radiusxyz)
-* **Contact Us**: [Contact Form](https://www.theradius.xyz/contact)
+* **Parnter With Us**: [Contact Form](https://www.theradius.xyz/contact)
 
