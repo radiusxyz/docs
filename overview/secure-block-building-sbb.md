@@ -25,14 +25,9 @@ SBB integrates into rollups as a plug-in with two main features:
 
 ***
 
-### **SBB + Lighthouse: Cross-Rollup MEV**
+> #### **Transaction Handling for SBB and Lighthouse**
+>
+> **Standalone SBB**: Coordinates both user transaction ordering and searcher bundles, optimized for local value capture.
+>
+> **SBB + Lighthouse**: SBB manages user transactions, while Lighthouse coordinates cross-market auctions. This expands arbitrage opportunities and supports more advanced trading strategies across interconnected venues.
 
-SBB provides the foundation for MEV capture, while Lighthouse expands upon this by connecting rollups across Ethereum. This connection enables MEV opportunities between different rollups, increasing revenue potential for both rollups and searchers while fostering a more unified Ethereum ecosystem.
-
-[Learn more about Lighthouse and cross-rollup future](lighthouse/)
-
-***
-
-### Build With Radius
-
-[Contact Us](https://www.theradius.xyz/contact) to learn more about SBB and Lighthouse
