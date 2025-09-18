@@ -2,7 +2,8 @@
 
 ## Overview
 
-* [Introduction](README.md)
+* [What is Radius?](README.md)
+* [Background](overview/background.md)
 * [Secure Block Building (SBB)](overview/secure-block-building-sbb.md)
 * [Lighthouse](overview/lighthouse/README.md)
   * [Slot-Based Transaction Ordering](overview/lighthouse/slot-based-transaction-ordering.md)
