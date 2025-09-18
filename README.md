@@ -1,11 +1,18 @@
-# About Radius
+# Introduction
 
-### Introduction <a href="#why-radius" id="why-radius"></a>
+### What is Radius?
 
-Ethereum powers DeFi and global onchain markets, yet much of its value today flows through **opaque mechanisms** and remains trapped in **fragmented silos**. This reduces trust, limits network effects, and slows ecosystem-wide growth.
+Radius builds **open market infrastructure** that unifies fragmented venues and unlocks ecosystem-wide opportunities for Ethereum. By breaking down silos across rollups, exchanges (CEX/DEX), and isolated markets, Radius enables participants to access new pathways for collaboration and efficient value capture.
 
-Radius builds the **economic trust layer for Ethereum**: infrastructure that makes **value flows transparent, markets unified, and incentives aligned**, enabling rollups, searchers, and L1/L2 infrastructure to build on markets that scale collectively, not in isolation.\
+***
 
+### Background <a href="#why-radius" id="why-radius"></a>
+
+Ethereum was founded on the vision of providing a neutral, open infrastructure. But as Ethereum has scaled through rollups, new market structures have emerged. We now see fragmentation: value flows split across rollups, opaque transaction orderflow, and siloed markets. The result is inefficiency, misaligned incentives, and limited collaboration between participants.
+
+At the same time, the stakes are rising. Institutional assets and large-scale capital are beginning to migrate onchain who demand reliable, predictable, and transparent operations. To meet these expectations, Ethereum must evolve, or it risks recreating the same closed and concentrated systems it set out to replace.
+
+Radius exists to meet this moment: building infrastructure that restores openness, aligns incentives, and prepares Ethereum ready for the next era of global markets.
 
 ***
 
@@ -14,25 +21,15 @@ Radius builds the **economic trust layer for Ethereum**: infrastructure that mak
 * **Universal Transparency:** All value flows from revenue generation to distribution, are visible.
 * **Unified Markets:** Fragmented L1/L2/CEX/DEX activity is coordinated into a single system.
 * **Aligned Incentives:** Growth for one participant multiplies growth across the ecosystem.
-* **Future-Ready:** Transparent frameworks prepare rollups and protocols for institutional adoption and regulatory clarity.
+* **Future-Ready:** Compliance-ready frameworks prepare rollups and protocols for institutional adoption and regulatory clarity.
 
 ***
 
-### Products
+### Product
 
-Radius offers two products designed to bring transparency and unified Ethereum markets:
+**Secure Block Building (SBB)**: A high-efficiency transaction ordering framework that optimizes block production for stronger economic outcomes. SBB helps rollups capture new revenue sources through orderly execution while mitigating risks like arbitrary reordering and exploitative tactics. This improves market efficiency, strengthens operational transparency, and aligns incentives across participants.
 
-**Secure Block Building (SBB)**: Transparent, open markets
-
-* Provides rollups with top-of-block backrunning slots for arbitrage strategies across CEX and DEX markets.
-* Uses open auctions where searchers compete, creating new revenue for rollups.
-* Embeds mechanisms that reduce exploitative tactics like frontrunning and censorship.
-
-**Lighthouse:** Efficient cross-market auctions
-
-* Runs unified auctions across CEX, DEX, and L1/L2 for arbitrage execution.
-* Improves price discovery and unlocks liquidity by connecting fragmented venues.
-* Creates shared market efficiency and revenue opportunities for participants.
+**Lighthouse:** An open auction infrastructure where searchers bid for arbitrage bundle inclusion across Layer 1, Layer 2, and exchanges (CEX/DEX). Lighthouse creates new value-capture pathways that support advanced cross-market strategies, foster competitive price discovery, and unify markets under a common infrastructure.
 
 ***
 
