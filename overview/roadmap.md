@@ -1,13 +1,5 @@
 # Roadmap
 
-### Our Journey
-
-With [Secure Block Building (SBB)](secure-block-building-sbb.md) and [Lighthouse](lighthouse.md), we're shaping a rollup economy that delivers user-safe MEV revenue, connects rollups, and maximizes value across Ethereum's ecosystem.
-
-This roadmap outlines our path: we begin with SBB for individual rollups, scale to cross-rollup MEV with Lighthouse in 2025, and bridge L1-L2 opportunities by 2026—all to achieve economic unity across Ethereum.
-
-***
-
 ### **(2025) SBB: Arbitrage Support for Rollups**
 
 SBB enables searchers to submit MEV bundles directly to rollups, providing secure MEV capture for users.
@@ -33,7 +25,7 @@ Lighthouse extends MEV capture between Layer 1 and Layer 2, enabling cross-layer
 
 ### Join Us
 
-Shape the future with us. Connect with our team to integrate SBB or Lighthouse, and follow us on X for the latest updates: [Contact Us](https://www.theradius.xyz/contact) | [Follow on X](https://x.com/radius_xyz).
+Advance the foundation of economic trust with us: [Contact Us](https://www.theradius.xyz/contact) | [Follow on X](https://x.com/radius_xyz).
 
 
 

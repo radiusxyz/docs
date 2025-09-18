@@ -1,16 +1,8 @@
 # Secure Block Building (SBB)
 
-{% hint style="info" %}
-We’re working on providing a detailed technical overview of Secure Block Building (SBB) to help you understand its architecture and implementation. In the meantime, explore how SBB drives rollup revenue growth by capturing user-safe MEV, or reach out to our team for early insights on how SBB can benefit your rollup. [Contact us](https://www.theradius.xyz/contact).
+### What is Secure Block Building (SBB)?
 
-***
-{% endhint %}
-
-### Introducing Secure Block Building
-
-Secure Block Building (SBB) unlocks MEV as a new revenue source for rollups through a fast, secure, and fair framework. By collaborating with searchers, SBB integrates their expertise and strategies into the rollup’s block building process, capturing MEV to boost rollup revenue while supporting growth across the ecosystem.
-
-SBB lays the foundation for [Lighthouse](https://www.notion.so/1b90727039a680f2a981d28164eeb944?pvs=21), a broader vision that maximizes revenue potential by extending MEV capture across multiple networks and domains - including rollups, Layer 1, and centralized exchanges.
+A high-efficiency transaction ordering framework that optimizes block production for stronger economic outcomes. SBB helps rollups capture new revenue sources through orderly execution while mitigating risks like arbitrary reordering and exploitative tactics. This improves market efficiency, strengthens operational transparency, and aligns incentives across participants.
 
 ***
 
@@ -37,11 +29,10 @@ SBB integrates into rollups as a plug-in with two main features:
 
 SBB provides the foundation for MEV capture, while Lighthouse expands upon this by connecting rollups across Ethereum. This connection enables MEV opportunities between different rollups, increasing revenue potential for both rollups and searchers while fostering a more unified Ethereum ecosystem.
 
-[Learn more about Lighthouse and cross-rollup future](lighthouse.md)
+[Learn more about Lighthouse and cross-rollup future](lighthouse/)
 
 ***
 
-### Next Steps
+### Build With Radius
 
-* Integrate SBB and Lighthouse to start capturing MEV revenue: [Contact us](https://www.theradius.xyz/contact)
-* Visit our [GitHub](https://github.com/radiusxyz)
+[Contact Us](https://www.theradius.xyz/contact) to learn more about SBB and Lighthouse

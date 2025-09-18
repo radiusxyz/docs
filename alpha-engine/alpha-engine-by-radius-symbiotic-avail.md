@@ -22,7 +22,7 @@ Rollups have improved Ethereum’s scalability by executing transactions off-cha
 Alpha Engine is a modular infrastructure stack designed to support the **sustainable growth of rollups**. It integrates three key components:
 
 * **Radius (MEV capture):**
-  * [Lighthouse](../overview/lighthouse.md) enables rollups to capture and internalize MEV (Maximal Extractable Value), turning it into a new revenue source beyond transaction fees.
+  * [Lighthouse](../overview/lighthouse/) enables rollups to capture and internalize MEV (Maximal Extractable Value), turning it into a new revenue source beyond transaction fees.
   * This revenue can incentivize users, subsidize projects, and fuel ecosystem growth.
 * **Symbiotic (Shared Security Protocol):**
   * [Symbiotic protocol](https://blog.symbiotic.fi/symbiotic-intro/) provides a flexible, sovereign security layer that rollups can integrate plug-and-play solution without building in-house solutions.
@@ -41,11 +41,11 @@ In addition, Symbiotic infrastructure providers (Networks) and Fuel partners of 
 
 Radius enables **rollups to capture MEV revenue** with Secure Block Building(SBB) and Lighthouse.
 
-#### 2.1.1 [Lighthouse](../overview/lighthouse.md): Cross-rollup MEV capture
+#### 2.1.1 [Lighthouse](../overview/lighthouse/): Cross-rollup MEV capture
 
-<figure><img src="../.gitbook/assets/image (1) (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
 
-[Lighthouse](../overview/lighthouse.md) is a decentralized network that runs auctions to monetize rollup blockspace during block production. Rollups offer blockspace, and searchers bid to include MEV transactions—such as arbitrage and liquidations—that enhance market efficiency.
+[Lighthouse](../overview/lighthouse/) is a decentralized network that runs auctions to monetize rollup blockspace during block production. Rollups offer blockspace, and searchers bid to include MEV transactions—such as arbitrage and liquidations—that enhance market efficiency.
 
 * **Expanded MEV Market**: Enables cross-rollup arbitrage and L1-L2 arbitrage, alongside CEX-DEX arbitrage, atomic arbitrage, and liquidations.
 * **Higher Revenue**: Increases MEV opportunities to attract more searchers while auction mechanisms minimize spam, resulting in higher bids and greater rollup profits.
@@ -321,7 +321,7 @@ Symbiotic points are transferred to the Network, not directly to Rollups. In thi
 
 ### **6.1 Symbiotic Networks**
 
-<figure><img src="../.gitbook/assets/image.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (1).png" alt=""><figcaption></figcaption></figure>
 
 Networks are the systems that need economic security to operate safely. These can be Layer 1 blockchains, Layer 2 solutions, or other decentralized systems that require stake-based security guarantees.
 
