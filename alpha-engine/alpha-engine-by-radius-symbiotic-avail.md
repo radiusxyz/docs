@@ -55,11 +55,11 @@ Radius enables **rollups to capture MEV revenue** with Secure Block Building(SBB
 _Lighthouse seamlessly connects to rollups via Secure Block Building (SBB). Once rollups integrate SBB, no extra work is needed to integrate Lighthouse. This guide walks through SBB integration._
 {% endhint %}
 
-#### **2.1.2** [**Secure Block Building (SBB)**](../overview/secure-block-building-sbb/)**: User-safe MEV Capture**
+#### **2.1.2** [**Secure Block Building (SBB)**](../overview/secure-block-building-sbb.md)**: User-safe MEV Capture**
 
 <figure><img src="../.gitbook/assets/image (44).png" alt=""><figcaption></figcaption></figure>
 
-[Secure Block Building (SBB)](../overview/secure-block-building-sbb/) enhances L2 block building to capture MEV, collaborating with searchers to increase revenue.
+[Secure Block Building (SBB)](../overview/secure-block-building-sbb.md) enhances L2 block building to capture MEV, collaborating with searchers to increase revenue.
 
 SBB provides three key benefits:
 

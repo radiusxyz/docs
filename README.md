@@ -14,7 +14,7 @@ Radius brings three core advantages to Ethereum’s market infrastructure:
 
 ### Product
 
-* [Secure Block Building (SBB) ](overview/secure-block-building-sbb/)
+* [Secure Block Building (SBB) ](overview/secure-block-building-sbb.md)
 * [Lighthouse](overview/lighthouse/)
 
 ***

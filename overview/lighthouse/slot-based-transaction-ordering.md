@@ -1,3 +1,7 @@
+---
+description: Understand why we use slot-based transaction ordering
+---
+
 # Slot-Based Transaction Ordering
 
 Radius introduces a **slot-based transaction ordering model** in Lighthouse.
