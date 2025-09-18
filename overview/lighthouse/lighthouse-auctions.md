@@ -1,4 +1,4 @@
-# Lighthouse Auction
+# Lighthouse Auctions
 
 Lighthouse runs on a hybrid architecture that combines **off-chain execution** with **on-chain settlement**, balancing performance with security. \[Figure 2]
 
@@ -32,10 +32,12 @@ Lighthouse runs on a hybrid architecture that combines **off-chain execution** w
 
 ***
 
+{% hint style="info" %}
 ### **Transaction Handling for SBB and Lighthouse**
 
 * **Standalone SBB**: Coordinates both user transaction ordering and searcher bundles, optimized for local value capture.
 * **SBB + Lighthouse**: SBB manages user transactions, while Lighthouse coordinates cross-market auctions. This expands arbitrage opportunities and supports more advanced trading strategies across interconnected venues.
+{% endhint %}
 
 
 

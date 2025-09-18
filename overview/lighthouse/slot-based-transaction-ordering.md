@@ -1,8 +1,6 @@
 # Slot-Based Transaction Ordering
 
-### Understanding Slot-Based Transaction Ordering
-
-Radius introduces a slot-based transaction ordering model in Lighthouse.
+Radius introduces a **slot-based transaction ordering model** in Lighthouse.
 
 A **slot** is a unit of transactions, comprising searcher bundles (from Lighthouse) and user transactions (from SBB). Slot-based ordering runs independently of block times, managing the ordering of transactions within each slot.
 
@@ -19,7 +17,7 @@ Each slot is divided into two segments:
 
 This two-tier structure ensures value-capturing arbitrage and user activity coexist under fair, transparent rules.
 
-<figure><img src="../../.gitbook/assets/image.png" alt=""><figcaption><p><strong>Figure 1. Slot Structure</strong> – Each slot comprises Lighthouse (searcher bundles) and SBB (user transactions), operating independently of block times.</p></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (1).png" alt=""><figcaption><p><strong>Figure 1. Slot Structure</strong> – Each slot comprises Lighthouse (searcher bundles) and SBB (user transactions), operating independently of block times.</p></figcaption></figure>
 
 ***
 

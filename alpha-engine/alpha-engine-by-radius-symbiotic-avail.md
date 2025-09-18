@@ -43,7 +43,7 @@ Radius enables **rollups to capture MEV revenue** with Secure Block Building(SBB
 
 #### 2.1.1 [Lighthouse](../overview/lighthouse/): Cross-rollup MEV capture
 
-<figure><img src="../.gitbook/assets/image (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (1) (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
 
 [Lighthouse](../overview/lighthouse/) is a decentralized network that runs auctions to monetize rollup blockspace during block production. Rollups offer blockspace, and searchers bid to include MEV transactions—such as arbitrage and liquidations—that enhance market efficiency.
 
@@ -55,11 +55,11 @@ Radius enables **rollups to capture MEV revenue** with Secure Block Building(SBB
 _Lighthouse seamlessly connects to rollups via Secure Block Building (SBB). Once rollups integrate SBB, no extra work is needed to integrate Lighthouse. This guide walks through SBB integration._
 {% endhint %}
 
-#### **2.1.2** [**Secure Block Building (SBB)**](../overview/secure-block-building-sbb.md)**: User-safe MEV Capture**
+#### **2.1.2** [**Secure Block Building (SBB)**](../overview/secure-block-building-sbb/)**: User-safe MEV Capture**
 
 <figure><img src="../.gitbook/assets/image (44).png" alt=""><figcaption></figcaption></figure>
 
-[Secure Block Building (SBB)](../overview/secure-block-building-sbb.md) enhances L2 block building to capture MEV, collaborating with searchers to increase revenue.
+[Secure Block Building (SBB)](../overview/secure-block-building-sbb/) enhances L2 block building to capture MEV, collaborating with searchers to increase revenue.
 
 SBB provides three key benefits:
 
@@ -321,7 +321,7 @@ Symbiotic points are transferred to the Network, not directly to Rollups. In thi
 
 ### **6.1 Symbiotic Networks**
 
-<figure><img src="../.gitbook/assets/image (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (1) (1).png" alt=""><figcaption></figcaption></figure>
 
 Networks are the systems that need economic security to operate safely. These can be Layer 1 blockchains, Layer 2 solutions, or other decentralized systems that require stake-based security guarantees.
 

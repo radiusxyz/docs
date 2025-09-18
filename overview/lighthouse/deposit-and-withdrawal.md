@@ -2,7 +2,7 @@
 
 ### Deposits
 
-<figure><img src="../../.gitbook/assets/image (46).png" alt=""><figcaption><p><strong>Figure 3. Deposit Workflow</strong> – steps to deposit funds within Lighthouse.</p></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (46).png" alt=""><figcaption><p><strong>Figure 3. Deposit</strong> – steps to deposit funds within Lighthouse.</p></figcaption></figure>
 
 
 
@@ -15,7 +15,7 @@
 
 ### Withdrawals
 
-<figure><img src="../../.gitbook/assets/image (47).png" alt=""><figcaption><p><strong>Figure 3. Withdrawal Workflow</strong> – steps to withdraw funds within Lighthouse.</p></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (47).png" alt=""><figcaption><p><strong>Figure 4. Withdrawal</strong> – steps to withdraw funds within Lighthouse.</p></figcaption></figure>
 
 1. **Reserve Withdrawal:** To withdraw, a searcher reserves a withdrawal. This enforces a delay to prevent inconsistencies. For example, ensuring the same deposit cannot be used simultaneously in a bid and a withdrawal.
 2. **Send `WithdrawalReserved` Event:** Upon receiving the reservation event, the server marks the searcher as _ineligible to bid_. From this point, the searcher cannot submit bids.
