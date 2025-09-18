@@ -30,5 +30,12 @@ Lighthouse runs on a hybrid architecture that combines **off-chain execution** w
    * **5-2. Simulate Bundles:** Bundles are simulated in sequence; only valid bundles are confirmed. Confirmed bundles are forwarded to the rollup for Slot N+1 (via Step 2-2).
    * **5-3. Submit Auction Closed Msg**: The Lighthouse contract executes settlement and closes the auction.
 
+***
+
+### **Transaction Handling for SBB and Lighthouse**
+
+* **Standalone SBB**: Coordinates both user transaction ordering and searcher bundles, optimized for local value capture.
+* **SBB + Lighthouse**: SBB manages user transactions, while Lighthouse coordinates cross-market auctions. This expands arbitrage opportunities and supports more advanced trading strategies across interconnected venues.
+
 
 
