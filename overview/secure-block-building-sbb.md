@@ -21,11 +21,3 @@ SBB integrates into rollups as a plug-in with two main features:
 * **Arbitrage Support**: Searchers spot arbitrage opportunities and submit bundles to SBB blockspace. This also includes CEX-DEX trades and liquidations, which generate additional revenue for the rollup.
 * **Encrypted Mempool**: User transactions are encrypted and sent to SBB user blockspace, This protects them from manipulation while ensuring inclusion through preconfirmations.
 
-***
-
-> #### **Transaction Handling for SBB and Lighthouse**
->
-> **Standalone SBB**: Coordinates both user transaction ordering and searcher bundles, optimized for local value capture.
->
-> **SBB + Lighthouse**: SBB manages user transactions, while Lighthouse coordinates cross-market auctions. This expands arbitrage opportunities and supports more advanced trading strategies across interconnected venues.
-

@@ -31,5 +31,12 @@ Slot ordering guarantees deterministic execution. It solves key limitations of b
 * **Communication Delays**: Latency between rollups and external systems (e.g., SBB or Lighthouse) disrupts timely block production.
 * **External Failures**: Failures in external systems (such as SBB or Lighthouse) can cascade into the transaction pipeline, impacting how the rollup processes transactions.
 
+***
+
+### **Transaction Handling for SBB and Lighthouse**
+
+* **Standalone SBB**: Coordinates both user transaction ordering and searcher bundles, optimized for local value capture.
+* **SBB + Lighthouse**: SBB manages user transactions, while Lighthouse coordinates cross-market auctions. This expands arbitrage opportunities and supports more advanced trading strategies across interconnected venues.
+
 
 
