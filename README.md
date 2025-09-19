@@ -8,11 +8,11 @@ By breaking down silos across rollups, exchanges (CEX/DEX), and isolated markets
 
 ***
 
-Radius brings three core advantages to Ethereum’s market infrastructure:
+Radius brings three core advantages to Ethereum:
 
-* **Transparency at every layer** – bringing visibility to how value flows, from transaction ordering to market outcomes.
-* **Collaborative markets** – coordinating participants within open markets where opportunities are broadly accessible.&#x20;
-* **Institutional readiness** – creating predictable, compliance-friendly systems that make Ethereum a credible foundation for global-scale markets.
+* **Transparency at every layer** – Clear visibility to how value flows, from transaction ordering to final market outcomes.
+* **Collaborative markets** – Open coordination across participants, where opportunities are broadly accessible.
+* **Institutional readiness** – Predictable, compliance-friendly systems that position Ethereum as a credible foundation for global-scale markets.
 
 ***
 
