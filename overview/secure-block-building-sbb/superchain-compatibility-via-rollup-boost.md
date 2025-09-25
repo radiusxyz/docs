@@ -5,7 +5,7 @@
 * OP Stack’s `op-geth` orders transactions strictly by gas price.
 * However, SBB requires pre-confirmation of inclusion order before decryption, meaning transactions must follow a **first-come, first-served (FCFS)** sequence based on the encrypted arrival time.
 * This deterministic ordering logic is **incompatible with the OP Stack’s default `tx_list` construction**.
-* To avoid modifying core OP Stack core logic, we use a **sidecar** wiwth Rollup Boost + a modified `rBuilder`.
+* To avoid modifying core OP Stack core logic, we use a **sidecar** with Rollup Boost + a modified `rBuilder`.
 
 ***
 
