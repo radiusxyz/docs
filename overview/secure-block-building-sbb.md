@@ -1,4 +1,4 @@
 # Secure Block Building (SBB)
 
-**Secure Block Building (SBB)** is a high-efficiency transaction ordering framework that optimizes block production for better economic outcomes. SBB enables rollups to capture new revenue through orderly execution while mitigating risks like arbitrary reordering and exploitative tactics. This strengthens transparency, improves efficiency, and ensures incentives are aligned across participants.
+**Secure Block Building (SBB)** is a highly-efficient transaction ordering protocol that optimizes block production for stronger economic outcomes. SBB helps rollups capture more revenue through orderly execution of searcher bundles, while preventing arbitrary reordering and predatory tactics like frontrunning. This design increases market efficiency, strengthens reliability in ordering, and ensures true economic alignment across participants.
 
