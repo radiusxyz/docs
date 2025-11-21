@@ -10,7 +10,7 @@
   * [OP Stack Compatibility](overview/secure-block-building-sbb/op-stack-compatibility.md)
 * [Lighthouse](overview/lighthouse/README.md)
   * [Mechanism](overview/lighthouse/slot-based-transaction-ordering.md)
-  * [Lighthouse Auctions](overview/lighthouse/lighthouse-auction.md)
+  * [Auction Process](overview/lighthouse/auction-process.md)
   * [Deposit & Withdrawal](overview/lighthouse/deposit-and-withdrawal.md)
   * [Lighthouse Architecture](overview/lighthouse/lighthouse-architecture.md)
 * [Roadmap](overview/roadmap.md)
