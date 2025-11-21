@@ -1,10 +1,10 @@
 ---
 description: >-
-  Understand the roles of DKG,  Tx_Orderer, Secure-RPC, anSeeder—and who
-  operates them.
+  These are the components in SBB: Distributed Key Generator (DKG),  Tx_Orderer,
+  Secure-RPC, and Seeder.
 ---
 
-# Core Components
+# SBB Components
 
 ### **Distributed Key Generation (DKG)**
 

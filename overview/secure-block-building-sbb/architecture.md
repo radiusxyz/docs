@@ -1,10 +1,4 @@
----
-description: >-
-  This section provides the architecture and transaction flow of Secure Block
-  Building (SBB).
----
-
-# SBB Architecture
+# Architecture
 
 <figure><img src="../../.gitbook/assets/image.png" alt=""><figcaption><p>Figure 1. Secure Block Building (SBB) Architecture</p></figcaption></figure>
 
