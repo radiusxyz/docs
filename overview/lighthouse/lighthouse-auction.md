@@ -1,4 +1,4 @@
-# Lighthouse Auctions
+# Auction Process
 
 Lighthouse runs on a hybrid architecture that combines **off-chain execution** with **on-chain settlement**, balancing performance with security. \[Figure 2]
 
