@@ -1,6 +1,6 @@
 # Mechanism
 
-We use a **slot-based transaction ordering mechanism** for Lighthouse.
+Lighthouse uses a **slot-based transaction ordering mechanism**.
 
 A **slot** is a unit of transactions, comprising searcher bundles (from Lighthouse) and user transactions (from SBB). Slot-based ordering runs independently of block times, managing the ordering of transactions within each slot.
 

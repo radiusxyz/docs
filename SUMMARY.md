@@ -9,7 +9,7 @@
   * [SBB Components](overview/secure-block-building-sbb/core-components.md)
   * [OP Stack Compatibility](overview/secure-block-building-sbb/op-stack-compatibility.md)
 * [Lighthouse](overview/lighthouse/README.md)
-  * [Mechanism](overview/lighthouse/mechanism.md)
+  * [Mechanism](overview/lighthouse/slot-based-transaction-ordering.md)
   * [Lighthouse Auctions](overview/lighthouse/lighthouse-auction.md)
   * [Deposit & Withdrawal](overview/lighthouse/deposit-and-withdrawal.md)
   * [Lighthouse Architecture](overview/lighthouse/lighthouse-architecture.md)
