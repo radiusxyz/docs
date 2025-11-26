@@ -18,7 +18,7 @@ By transforming compliance, security, and financials into built-in features, Rad
 
 ***
 
-#### Learn about our products
+#### Explore our products
 
 * [Secure Block Building](overview/secure-block-building-sbb/)
 * [Lighthouse](overview/lighthouse/)
