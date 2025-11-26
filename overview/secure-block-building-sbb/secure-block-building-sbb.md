@@ -1,4 +1,4 @@
-# Secure Block Building (SBB) Overview
+# Overview
 
 **Secure Block Building (SBB)** is protocol designed to provide institutional readiness for L1 and L2 blockchain networks. It solves the primary challenge of building blockchains by eliminating intermediary risk, guaranteeing operational resilience, and supporting efficient, sufficient markets.&#x20;
 
@@ -18,7 +18,7 @@ SBB is the final layer of infrastructure required to ensure your network is buil
 
 To begin integrating SBB or to conduct a technical review:
 
-* Explore the core components and full architecture in the [next section](secure-block-building-sbb/core-components.md).
+* Explore the core components and full architecture in the [next section](core-components.md).
 * See the FCFS mechanism proven on our [demo](https://x.com/radius_xyz/status/1991045378628882836).
 * [Contact our team](https://www.theradius.xyz/contact) to discuss regulatory fit, technical requirements, and deployment pathways.
 

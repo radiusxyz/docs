@@ -4,15 +4,17 @@
 
 * [What is Radius?](README.md)
 * [Background](overview/background.md)
-* [Secure Block Building (SBB) Overview](overview/secure-block-building-sbb.md)
+* [Secure Block Building (SBB)](overview/secure-block-building-sbb/README.md)
+  * [Overview](overview/secure-block-building-sbb/secure-block-building-sbb.md)
   * [Architecture](overview/secure-block-building-sbb/sbb-architecture.md)
   * [SBB Components](overview/secure-block-building-sbb/core-components.md)
   * [OP Stack Compatibility](overview/secure-block-building-sbb/op-stack-compatibility.md)
 * [Lighthouse](overview/lighthouse/README.md)
+  * [Overview](overview/lighthouse/lighthouse.md)
   * [Mechanism](overview/lighthouse/slot-based-transaction-ordering.md)
-  * [Auction Process](overview/lighthouse/lighthouse-auction.md)
-  * [Deposit & Withdrawal](overview/lighthouse/deposit-and-withdrawal.md)
   * [Architecture](overview/lighthouse/architecture.md)
+  * [Lighthouse Auction](overview/lighthouse/lighthouse-auction.md)
+  * [Deposit & Withdrawal](overview/lighthouse/deposit-and-withdrawal.md)
 * [Roadmap](overview/roadmap.md)
 * [Secure Block Building (SBB)](overview/secure-block-building-sbb-1/README.md)
   * [Quick Start](overview/secure-block-building-sbb-1/quick-start/README.md)
@@ -85,7 +87,7 @@
 
 ## LINK
 
-* [THERADIUS.XYZ](https://www.theradius.xyz)
-* [TWTTER](https://twitter.com/radius_xyz)
+* [WEBSITE](https://www.theradius.xyz)
+* [X/TWTTER](https://twitter.com/radius_xyz)
 * [BLOG](https://mirror.xyz/0x957084A1F20AB33cfA0cE07ed57F50c05954999C)
 * [GITHUB](https://github.com/radiusxyz)

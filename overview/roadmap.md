@@ -1,3 +1,7 @@
+---
+hidden: true
+---
+
 # Roadmap
 
 ### **(2025) SBB: Arbitrage Support for Rollups**
