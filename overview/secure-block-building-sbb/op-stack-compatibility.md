@@ -1,18 +1,19 @@
 # OP Stack Compatibility
 
-### &#x20;SBB with Rollup-Boost + rBuilder
+OP Stack's standard execution client (`op-geth`) strictly order transactions by priority fee (gas price).
 
-* OP Stack’s `op-geth` orders transactions strictly by gas price.
-* However, SBB requires pre-confirmation of inclusion order before decryption, meaning transactions must follow a **first-come, first-served (FCFS)** sequence based on the encrypted arrival time.
-* This deterministic ordering logic is **incompatible with the OP Stack’s default `tx_list` construction**.
-* To avoid modifying core OP Stack core logic, we use a **sidecar** with Rollup Boost + a modified `rBuilder`.
+However, SBB requires preconfirmation of inclusion order before the transaction contents are decrypted, meaning transactions must follow a first-come, first-served (FCFS) order based on the encrypted arrival time. This deterministic ordering logic is fundamentally incompatible with the OP Stack’s default `tx_list` block production mechanism.
+
+**To maintain compliance and alignment with the Superchain, and avoid modifying core OP Stack logic, we integrate SBB using a specialized sidecar architecture (**&#x52;ollup Boost + a modified `rBuilder`).
 
 ***
 
-### Why Rollup-Boost Ensures Superchain Compatibility
+#### SBB Integration: Rollup-Boost + rBuilder Sidecar
 
-* Rollup-Boost acts as a bridge between `op-node` and `op-geth`, preserving canonical interfaces.
-* It enables modular Builder integration (i.e., `rBuilder`) **without altering protocol logic**.
-* This allows us to support custom ordering and payload logic **while remaining aligned with OP Stack standards**.
-* As a result, SBB is **fully compatible with Superchain governance and upgrades**.
+Our integration solution leverages Flashbots' Rollup-Boost technology alongside a custom rBuilder implementation.
+
+* **Rollup-Boost**: This functions as a bridge between OP Stack's `op-node` and `op-geth`, preserving canonical interfaces.
+* **rBuilder**: This is the external, modular block builder that incorporates SBB's logic. It is modified to incorporate SBB's cryptographic ordering constraints (FCFS pre-confirmation logic) when constructing the transaction payload.
+
+This sidecar integration ensures we can fully support SBB while maintaining full alignment with Superchain governance and upgrade paths.
 
