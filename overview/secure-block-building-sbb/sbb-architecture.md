@@ -1,7 +1,3 @@
----
-description: SBB architecture enforces neutral transaction ordering.
----
-
 # Architecture
 
 <figure><img src="../../.gitbook/assets/image.png" alt=""><figcaption><p>Figure 1. Secure Block Building (SBB) Architecture</p></figcaption></figure>
