@@ -4,7 +4,7 @@
 
 * [What is Radius?](README.md)
 * [Background](overview/background.md)
-* [Secure Block Building (SBB)](overview/secure-block-building-sbb.md)
+* [Secure Block Building (SBB) Overview](overview/secure-block-building-sbb.md)
   * [Architecture](overview/secure-block-building-sbb/sbb-architecture.md)
   * [SBB Components](overview/secure-block-building-sbb/core-components.md)
   * [OP Stack Compatibility](overview/secure-block-building-sbb/op-stack-compatibility.md)
