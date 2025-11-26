@@ -3,7 +3,7 @@
 ## Overview
 
 * [About Radius](README.md)
-* [Why Radius?](overview/why-radius.md)
+* [The Vision](overview/the-vision.md)
 * [Secure Block Building (SBB)](overview/secure-block-building-sbb/README.md)
   * [Overview](overview/secure-block-building-sbb/secure-block-building-sbb.md)
   * [Core Components](overview/secure-block-building-sbb/core-components.md)
