@@ -1,5 +1,7 @@
 # About Radius
 
+<figure><img src=".gitbook/assets/Youtube Headbanner final.png" alt=""><figcaption></figcaption></figure>
+
 Radius provides the foundational infrastructure necessary to build, deploy, and operate institutional-grade Layer 1 (L1) and Layer 2 (L2) networks. Our goal is to transform complex regulatory requirements into structural, verifiable features of the protocol.
 
 Radius offers a suite of products designed to address the three core mandates of institutional needs: **Compliance, Resilience, and Scale**.

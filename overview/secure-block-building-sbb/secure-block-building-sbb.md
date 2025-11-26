@@ -1,5 +1,7 @@
 # Overview
 
+<figure><img src="../../.gitbook/assets/2500x1000 - X Article.png" alt=""><figcaption></figcaption></figure>
+
 **Secure Block Building (SBB)** is protocol designed to provide institutional readiness for L1 and L2 blockchain networks. It solves the primary challenge of building blockchains by eliminating intermediary risk, guaranteeing operational resilience, and supporting efficient, sufficient markets.&#x20;
 
 SBB is not an execution layer; it is a structural compliance layer guaranteeing neutral, non-intermediary transaction ordering, allowing institutional builders to focus on scaling financial markets without compromising compliance.
