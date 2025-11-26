@@ -1,23 +1,33 @@
-# What is Radius?
+# About Radius
 
-Radius builds **open market infrastructure** to support truly open and scalable economic activity on Ethereum.&#x20;
+Radius provides the foundational infrastructure necessary to build, deploy, and operate institutional-grade Layer 1 (L1) and Layer 2 (L2) networks. Our goal is to transform complex regulatory requirements into structural, verifiable features of the protocol.
 
-Our infrastructure connects rollups and searchers into a single collaborative network - enabling new ways to access opportunities and capture value. With protocols like [Secure Block Building (SBB)](overview/secure-block-building-sbb/secure-block-building-sbb.md) and [Lighthouse](overview/lighthouse/lighthouse.md), the ecosystem can run competitive auctions, execute advanced arbitrage, and unlock revenue in ways that benefit the whole ecosystem.&#x20;
-
-By breaking down silos across rollups, exchanges (CEX/DEX), and isolated markets, Radius makes markets more open, incentive-aligned, and efficient in how value is shared across Ethereum.
+Radius offers a suite of products designed to address the three core mandates of institutional needs: **Compliance, Resilience, and Scale**.
 
 ***
 
-Radius brings three core advantages to Ethereum:
+#### What Radius Delivers
 
-* **Transparency at every layer** – Clear visibility to how value flows, from transaction ordering to final market outcomes.
-* **Collaborative markets** – Open coordination across participants, where opportunities are broadly accessible.
-* **Institutional readiness** – Predictable, compliance-friendly systems that position Ethereum as a credible foundation for global-scale markets.
+We enable global enterprises, leading fintechs, and ambitious protocols to launch networks with a definitive competitive edge:
+
+* Protocol-Level Compliance: Tools for guaranteeing compliance standards are met at the foundational layer.
+* Operational Resilience: Infrastructure that guarantees stability, security, and fault-tolerant operations.
+* Rapid Scalability: The capability to support long-term business growth.
+
+By transforming compliance, security, and financials into built-in features, Radius provides the foundational infrastructure necessary for the next generation of global finance.
 
 ***
 
-### Getting Started
+#### Learn about our products
+
+* [Secure Block Building](overview/secure-block-building-sbb/)
+* [Lighthouse](overview/lighthouse/)
+* ...and soon more
+
+***
+
+#### Further resources
 
 * **Explore**: [GitHub](https://github.com/radiusxyz)
-* **Parnter With Us**: [Contact Form](https://www.theradius.xyz/contact)
+* **Conact Us:** [Contact Form](https://www.theradius.xyz/contact)
 

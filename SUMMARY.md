@@ -2,7 +2,7 @@
 
 ## Overview
 
-* [What is Radius?](README.md)
+* [About Radius](README.md)
 * [Background](overview/background.md)
 * [Secure Block Building (SBB)](overview/secure-block-building-sbb/README.md)
   * [Overview](overview/secure-block-building-sbb/secure-block-building-sbb.md)
