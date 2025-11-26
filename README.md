@@ -28,6 +28,6 @@ By transforming compliance, security, and financials into built-in features, Rad
 
 #### Further resources
 
-* **Explore**: [GitHub](https://github.com/radiusxyz)
+* **Developers**: [GitHub](https://github.com/radiusxyz)
 * **Conact Us:** [Contact Form](https://www.theradius.xyz/contact)
 
