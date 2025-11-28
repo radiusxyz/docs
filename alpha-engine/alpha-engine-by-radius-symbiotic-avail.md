@@ -4,7 +4,7 @@
 
 #### **1.1 The Challenge of Sustainable Rollup Growth**
 
-<figure><img src="../.gitbook/assets/image (3).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (3) (1).png" alt=""><figcaption></figcaption></figure>
 
 Rollups have improved Ethereum’s scalability by executing transactions off-chain while maintaining Ethereum’s security. However, deploying a rollup is not enough to ensure long-term sustainability. Key challenges include:
 
@@ -17,7 +17,7 @@ Rollups have improved Ethereum’s scalability by executing transactions off-cha
 
 #### 1.2 What is Alpha Engine?
 
-<figure><img src="../.gitbook/assets/image (2).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (2) (1).png" alt=""><figcaption></figcaption></figure>
 
 Alpha Engine is a modular infrastructure stack designed to support the **sustainable growth of rollups**. It integrates three key components:
 
@@ -43,7 +43,7 @@ Radius enables **rollups to capture MEV revenue** with Secure Block Building(SBB
 
 #### 2.1.1 [Lighthouse](../overview/lighthouse/lighthouse.md): Cross-rollup MEV capture
 
-<figure><img src="../.gitbook/assets/image (1) (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (1) (1) (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
 
 [Lighthouse](../overview/lighthouse/lighthouse.md) is a decentralized network that runs auctions to monetize rollup blockspace during block production. Rollups offer blockspace, and searchers bid to include MEV transactions—such as arbitrage and liquidations—that enhance market efficiency.
 
@@ -69,7 +69,7 @@ SBB provides three key benefits:
 
 ### 2.2 Symbiotic: Shared Security Protocol
 
-<figure><img src="../.gitbook/assets/image (4).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (4) (1).png" alt=""><figcaption></figcaption></figure>
 
 Symbiotic is a [**shared security protocol**](https://blog.symbiotic.fi/symbiotic-intro/) that enables rollups to retain full control over their security implementations which includes management of collateral assets, operator selection, and slashing mechanisms.
 
@@ -321,7 +321,7 @@ Symbiotic points are transferred to the Network, not directly to Rollups. In thi
 
 ### **6.1 Symbiotic Networks**
 
-<figure><img src="../.gitbook/assets/image (1) (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
 
 Networks are the systems that need economic security to operate safely. These can be Layer 1 blockchains, Layer 2 solutions, or other decentralized systems that require stake-based security guarantees.
 

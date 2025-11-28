@@ -15,7 +15,7 @@ Each slot is divided into two segments to ensure value capture and user protecti
 1. **Top-of-Slot (Priority Txs):** Arbitrage bundles from searchers via Lighthouse auctions. These transactions backrun the previous slots (user transactions) to capture market opportunities.
 2. **Bottom-of-Slot (User Txs):** User transactions from SBB, which are protected from exploitation (e.g., frontrunning or sandwich attacks).
 
-<figure><img src="../../.gitbook/assets/image (1).png" alt=""><figcaption><p><strong>Figure 1. Slot Structure</strong> – Each slot comprises Lighthouse (searcher bundles) and SBB (user transactions), operating independently of block times.</p></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (1) (1).png" alt=""><figcaption><p><strong>Figure 1. Slot Structure</strong> – Each slot comprises Lighthouse (searcher bundles) and SBB (user transactions), operating independently of block times.</p></figcaption></figure>
 
 ***
 
