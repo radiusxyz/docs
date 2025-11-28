@@ -1,7 +1,7 @@
 ---
 description: >-
-  These components form SBB: Secure-RPC, Tx_Orderer (Operators), and Distributed
-  Key Generator (DKG).
+  There are three components in SBB: Secure-RPC, Tx_Orderer (Operators), and
+  Distributed Key Generator (DKG).
 ---
 
 # Core Components
